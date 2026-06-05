@@ -1,324 +1,552 @@
 [[positions]]
+id = "LFXX_FMP"
+prefixes = ["LFXX"]
+frequency = "199.998"
+facility_type = "FMP"
+profile_id = "LFFF,LFOB,LFPG,LFPM,LFPO,LFPT,LFQQ"
+default_call_sources = ["LFXX_FMP"]
+
+[[positions]]
 id = "PAR_AENB_CTR"
 prefixes = ["PAR"]
 frequency = "125.455"
 facility_type = "CTR"
-default_call_sources = ["PAR_AENB_CTR"]
+default_call_sources = [
+    "PAR_AP",
+    "PAR_TB",
+    "PAR_TE",
+    "PAR_TN",
+]
 
 [[positions]]
 id = "PAR_AOML_CTR"
 prefixes = ["PAR"]
 frequency = "129.625"
 facility_type = "CTR"
-default_call_sources = ["PAR_AOML_CTR"]
+default_call_sources = [
+    "PAR_AO",
+    "PAR_AR",
+    "PAR_US",
+    "PAR_TL",
+    "PAR_TM",
+]
 
 [[positions]]
 id = "PAR_AOUS_CTR"
 prefixes = ["PAR"]
 frequency = "132.675"
 facility_type = "CTR"
-default_call_sources = ["PAR_AOUS_CTR"]
+default_call_sources = [
+    "PAR_AO",
+    "PAR_US",
+]
 
 [[positions]]
 id = "PAR_AO_CTR"
 prefixes = ["PAR"]
 frequency = "125.080"
 facility_type = "CTR"
-default_call_sources = ["PAR_AO_CTR"]
+default_call_sources = ["PAR_AO"]
 
 [[positions]]
 id = "PAR_APTE_CTR"
 prefixes = ["PAR"]
 frequency = "131.055"
 facility_type = "CTR"
-default_call_sources = ["PAR_APTE_CTR"]
+default_call_sources = [
+    "PAR_AP",
+    "PAR_TE",
+]
 
 [[positions]]
 id = "PAR_AP_CTR"
 prefixes = ["PAR"]
 frequency = "131.065"
 facility_type = "CTR"
-default_call_sources = ["PAR_AP_CTR"]
+default_call_sources = ["PAR_AP"]
 
 [[positions]]
 id = "PAR_ARML_CTR"
 prefixes = ["PAR"]
 frequency = "125.700"
 facility_type = "CTR"
-default_call_sources = ["PAR_ARML_CTR"]
+default_call_sources = [
+    "PAR_AR",
+    "PAR_TL",
+    "PAR_TM",
+]
 
 [[positions]]
 id = "PAR_AR_CTR"
 prefixes = ["PAR"]
 frequency = "132.100"
 facility_type = "CTR"
-default_call_sources = ["PAR_AR_CTR"]
+default_call_sources = ["PAR_AR"]
 
 [[positions]]
 id = "PAR_CTR"
 prefixes = ["PAR"]
 frequency = "128.275"
 facility_type = "CTR"
-default_call_sources = ["PAR_CTR"]
+default_call_sources = [
+    "PAR_OG",
+    "PAR_AO",
+    "PAR_AP",
+    "PAR_AR",
+    "PAR_OT",
+    "PAR_OY",
+    "PAR_TB",
+    "PAR_TE",
+    "PAR_TN",
+    "PAR_TP",
+    "PAR_TU",
+    "PAR_TW",
+    "PAR_UJ",
+    "PAR_UK",
+    "PAR_US",
+    "PAR_UT",
+    "PAR_UZ",
+    "PAR_DO",
+    "PAR_HP",
+    "PAR_PU",
+    "PAR_PW",
+    "PAR_RT",
+    "PAR_S",
+    "PAR_TH",
+    "PAR_TL",
+    "PAR_TM",
+    "PAR_UP",
+    "PAR_DG",
+    "PAR_DS",
+]
 
 [[positions]]
 id = "PAR_DGTJ_CTR"
 prefixes = ["PAR"]
 frequency = "126.100"
 facility_type = "CTR"
-default_call_sources = ["PAR_DGTJ_CTR"]
+default_call_sources = [
+    "PAR_TU",
+    "PAR_TW",
+    "PAR_UJ",
+    "PAR_UT",
+    "PAR_DO",
+    "PAR_HP",
+    "PAR_PU",
+    "PAR_PW",
+    "PAR_RT",
+    "PAR_S",
+    "PAR_UP",
+    "PAR_DG",
+    "PAR_DS",
+]
 
 [[positions]]
 id = "PAR_DG_CTR"
 prefixes = ["PAR"]
 frequency = "124.630"
 facility_type = "CTR"
-default_call_sources = ["PAR_DG_CTR"]
+default_call_sources = [
+    "PAR_DG",
+    "PAR_DS",
+]
 
 [[positions]]
 id = "PAR_DODG_CTR"
 prefixes = ["PAR"]
 frequency = "127.080"
 facility_type = "CTR"
-default_call_sources = ["PAR_DODG_CTR"]
+default_call_sources = [
+    "PAR_DO",
+    "PAR_S",
+    "PAR_DG",
+    "PAR_DS",
+]
 
 [[positions]]
 id = "PAR_DOGS_CTR"
 prefixes = ["PAR"]
 frequency = "135.405"
 facility_type = "CTR"
-default_call_sources = ["PAR_DOGS_CTR"]
+default_call_sources = [
+    "PAR_DO",
+    "PAR_S",
+    "PAR_DG",
+    "PAR_DS",
+]
 
 [[positions]]
 id = "PAR_FPAE_CTR"
 prefixes = ["PAR"]
 frequency = "125.060"
 facility_type = "CTR"
-default_call_sources = ["PAR_FPAE_CTR"]
+default_call_sources = [
+    "PAR_DO",
+    "PAR_S",
+    "PAR_DG",
+    "PAR_DS",
+]
 
 [[positions]]
 id = "PAR_HPKZ_CTR"
 prefixes = ["PAR"]
 frequency = "132.680"
 facility_type = "CTR"
-default_call_sources = ["PAR_HPKZ_CTR"]
+default_call_sources = [
+    "PAR_TP",
+    "PAR_UK",
+    "PAR_UZ",
+    "PAR_TH",
+]
 
 [[positions]]
 id = "PAR_HP_CTR"
 prefixes = ["PAR"]
 frequency = "122.615"
 facility_type = "CTR"
-default_call_sources = ["PAR_HP_CTR"]
+default_call_sources = ["PAR_HP"]
 
 [[positions]]
 id = "PAR_LMHJ_CTR"
 prefixes = ["PAR"]
 frequency = "132.730"
 facility_type = "CTR"
-default_call_sources = ["PAR_LMHJ_CTR"]
+default_call_sources = [
+    "PAR_HP",
+    "PAR_PU",
+    "PAR_PW",
+    "PAR_UP",
+]
 
 [[positions]]
 id = "PAR_LMH_CTR"
 prefixes = ["PAR"]
 frequency = "132.740"
 facility_type = "CTR"
-default_call_sources = ["PAR_LMH_CTR"]
+default_call_sources = [
+    "PAR_HP",
+    "PAR_PU",
+    "PAR_PW",
+    "PAR_UP",
+    "PAR_UT",
+]
 
 [[positions]]
 id = "PAR_LOW_CTR"
 prefixes = ["PAR"]
 frequency = "135.410"
 facility_type = "CTR"
-default_call_sources = ["PAR_LOW_CTR"]
+default_call_sources = [
+    "PAR_OG",
+    "PAR_AO",
+    "PAR_AP",
+    "PAR_AR",
+    "PAR_OT",
+    "PAR_OY",
+    "PAR_TB",
+    "PAR_TE",
+    "PAR_TN",
+    "PAR_TP",
+    "PAR_TU",
+    "PAR_TW",
+    "PAR_UJ",
+    "PAR_UK",
+    "PAR_US",
+    "PAR_UT",
+    "PAR_UZ",
+    "PAR_DO",
+    "PAR_HP",
+    "PAR_PU",
+    "PAR_PW",
+    "PAR_RT",
+    "PAR_S",
+    "PAR_TH",
+    "PAR_TL",
+    "PAR_TM",
+    "PAR_UP",
+    "PAR_DG",
+    "PAR_DS",
+]
 
 [[positions]]
 id = "PAR_OPKZ_CTR"
 prefixes = ["PAR"]
 frequency = "127.305"
 facility_type = "CTR"
-default_call_sources = ["PAR_OPKZ_CTR"]
+default_call_sources = [
+    "PAR_OG",
+    "PAR_OT",
+    "PAR_OY",
+    "PAR_RT",
+    "PAR_TP",
+    "PAR_UK",
+    "PAR_UZ",
+    "PAR_TH",
+]
 
 [[positions]]
 id = "PAR_ORGY_CTR"
 prefixes = ["PAR"]
 frequency = "127.310"
 facility_type = "CTR"
-default_call_sources = ["PAR_ORGY_CTR"]
+default_call_sources = [
+    "PAR_OG",
+    "PAR_OT",
+    "PAR_OY",
+    "PAR_RT",
+]
 
 [[positions]]
 id = "PAR_OT_CTR"
 prefixes = ["PAR"]
 frequency = "118.725"
 facility_type = "CTR"
-default_call_sources = ["PAR_OT_CTR"]
+default_call_sources = [
+    "PAR_OT",
+    "PAR_OY",
+]
 
 [[positions]]
 id = "PAR_PU_CTR"
 prefixes = ["PAR"]
 frequency = "132.755"
 facility_type = "CTR"
-default_call_sources = ["PAR_PU_CTR"]
+default_call_sources = [
+    "PAR_PU",
+    "PAR_PW",
+]
 
 [[positions]]
 id = "PAR_RPAE_CTR"
 prefixes = ["PAR"]
 frequency = "133.560"
 facility_type = "CTR"
-default_call_sources = ["PAR_RPAE_CTR"]
+default_call_sources = [
+    "PAR_AO",
+    "PAR_AR",
+    "PAR_TU",
+    "PAR_TW",
+    "PAR_UJ",
+    "PAR_US",
+    "PAR_UT",
+    "PAR_DO",
+    "PAR_HP",
+    "PAR_PU",
+    "PAR_PW",
+    "PAR_S",
+    "PAR_TL",
+    "PAR_TM",
+    "PAR_UP",
+    "PAR_DG",
+    "PAR_DS",
+]
 
 [[positions]]
 id = "PAR_RPAW_CTR"
 prefixes = ["PAR"]
 frequency = "133.925"
 facility_type = "CTR"
-default_call_sources = ["PAR_RPAW_CTR"]
+default_call_sources = [
+    "PAR_OG",
+    "PAR_AP",
+    "PAR_OT",
+    "PAR_OY",
+    "PAR_TB",
+    "PAR_TE",
+    "PAR_TN",
+    "PAR_TP",
+    "PAR_UK",
+    "PAR_UZ",
+    "PAR_RT",
+    "PAR_TH",
+]
 
 [[positions]]
 id = "PAR_RT_CTR"
 prefixes = ["PAR"]
 frequency = "122.575"
 facility_type = "CTR"
-default_call_sources = ["PAR_RT_CTR"]
+default_call_sources = ["PAR_RT"]
 
 [[positions]]
 id = "PAR_TB_CTR"
 prefixes = ["PAR"]
 frequency = "128.275"
 facility_type = "CTR"
-default_call_sources = ["PAR_TB_CTR"]
+default_call_sources = ["PAR_TB"]
 
 [[positions]]
 id = "PAR_TE_CTR"
 prefixes = ["PAR"]
 frequency = "128.105"
 facility_type = "CTR"
-default_call_sources = ["PAR_TE_CTR"]
+default_call_sources = ["PAR_TE"]
 
 [[positions]]
 id = "PAR_THUZ_CTR"
 prefixes = ["PAR"]
 frequency = "129.150"
 facility_type = "CTR"
-default_call_sources = ["PAR_THUZ_CTR"]
+default_call_sources = ["PAR_TH"]
 
 [[positions]]
 id = "PAR_TH_CTR"
 prefixes = ["PAR"]
 frequency = "124.850"
 facility_type = "CTR"
-default_call_sources = ["PAR_TH_CTR"]
+default_call_sources = ["PAR_TH"]
 
 [[positions]]
 id = "PAR_TL_CTR"
 prefixes = ["PAR"]
 frequency = "120.955"
 facility_type = "CTR"
-default_call_sources = ["PAR_TL_CTR"]
+default_call_sources = ["PAR_TL"]
 
 [[positions]]
 id = "PAR_TML_CTR"
 prefixes = ["PAR"]
 frequency = "133.920"
 facility_type = "CTR"
-default_call_sources = ["PAR_TML_CTR"]
+default_call_sources = [
+    "PAR_TL",
+    "PAR_TM",
+]
 
 [[positions]]
 id = "PAR_TM_CTR"
 prefixes = ["PAR"]
 frequency = "131.180"
 facility_type = "CTR"
-default_call_sources = ["PAR_TM_CTR"]
+default_call_sources = ["PAR_TM"]
 
 [[positions]]
 id = "PAR_TNTB_CTR"
 prefixes = ["PAR"]
 frequency = "135.660"
 facility_type = "CTR"
-default_call_sources = ["PAR_TNTB_CTR"]
+default_call_sources = [
+    "PAR_TB",
+    "PAR_TN",
+]
 
 [[positions]]
 id = "PAR_TN_CTR"
 prefixes = ["PAR"]
 frequency = "135.550"
 facility_type = "CTR"
-default_call_sources = ["PAR_TN_CTR"]
+default_call_sources = ["PAR_TN"]
 
 [[positions]]
 id = "PAR_TP_CTR"
 prefixes = ["PAR"]
 frequency = "128.875"
 facility_type = "CTR"
-default_call_sources = ["PAR_TP_CTR"]
+default_call_sources = ["PAR_TP"]
 
 [[positions]]
 id = "PAR_UJ_CTR"
 prefixes = ["PAR"]
 frequency = "132.380"
 facility_type = "CTR"
-default_call_sources = ["PAR_UJ_CTR"]
+default_call_sources = [
+    "PAR_TU",
+    "PAR_TW",
+    "PAR_UJ",
+]
 
 [[positions]]
 id = "PAR_UK_CTR"
 prefixes = ["PAR"]
 frequency = "129.005"
 facility_type = "CTR"
-default_call_sources = ["PAR_UK_CTR"]
+default_call_sources = ["PAR_UK"]
 
 [[positions]]
 id = "PAR_UP_CTR"
 prefixes = ["PAR"]
 frequency = "118.230"
 facility_type = "CTR"
-default_call_sources = ["PAR_UP_CTR"]
+default_call_sources = ["PAR_UP"]
 
 [[positions]]
 id = "PAR_US_CTR"
 prefixes = ["PAR"]
 frequency = "128.140"
 facility_type = "CTR"
-default_call_sources = ["PAR_US_CTR"]
+default_call_sources = ["PAR_US"]
 
 [[positions]]
 id = "PAR_UT_CTR"
 prefixes = ["PAR"]
 frequency = "133.505"
 facility_type = "CTR"
-default_call_sources = ["PAR_UT_CTR"]
+default_call_sources = ["PAR_UT"]
 
 [[positions]]
 id = "PAR_UZ_CTR"
 prefixes = ["PAR"]
 frequency = "131.255"
 facility_type = "CTR"
-default_call_sources = ["PAR_UZ_CTR"]
+default_call_sources = ["PAR_UZ"]
 
 [[positions]]
 id = "LFPG_N_DEP"
 prefixes = ["LFPG"]
 frequency = "124.355"
 facility_type = "DEP"
-default_call_sources = ["LFPG_N_DEP"]
+default_call_sources = [
+    "LFPG_N_DEP",
+    "LFPG_S_DEP",
+    "LFPG_N_TWR",
+    "LFPT_TWR",
+    "LFPL_TWR",
+    "LFPO_F_APP",
+    "LFPO_DEP",
+    "LFPN_TWR",
+    "LFPO_TWR",
+    "LFPN_I_TWR",
+]
 
 [[positions]]
 id = "LFPG_S_DEP"
 prefixes = ["LFPG"]
 frequency = "133.380"
 facility_type = "DEP"
-default_call_sources = ["LFPG_S_DEP"]
+default_call_sources = [
+    "LFPG_S_DEP",
+    "LFPO_APP",
+    "LFPB_TWR",
+    "LFPL_TWR",
+    "LFPO_F_APP",
+    "LFPO_DEP",
+    "LFPN_TWR",
+    "LFPO_TWR",
+    "LFPN_I_TWR",
+]
 
 [[positions]]
 id = "LFPO_DEP"
 prefixes = ["LFPO"]
 frequency = "127.750"
 facility_type = "DEP"
-default_call_sources = ["LFPO_DEP"]
+default_call_sources = [
+    "LFPO_DEP",
+    "LFPN_TWR",
+    "LFPO_TWR",
+    "LFPN_I_TWR",
+]
 
 [[positions]]
 id = "LFOB_APP"
 prefixes = ["LFOB"]
 frequency = "123.985"
 facility_type = "APP"
-default_call_sources = ["LFOB_APP"]
+default_call_sources = [
+    "LFOB_APP",
+    "LFOB_I_APP",
+    "LFOB_TWR",
+]
 
 [[positions]]
 id = "LFOB_I_APP"
@@ -332,7 +560,10 @@ id = "LFPG_FN_APP"
 prefixes = ["LFPG"]
 frequency = "126.430"
 facility_type = "APP"
-default_call_sources = ["LFPG_FN_APP"]
+default_call_sources = [
+    "LFPG_FN_APP",
+    "LFPG_FS_APP",
+]
 
 [[positions]]
 id = "LFPG_FS_APP"
@@ -346,63 +577,126 @@ id = "LFPG_N_APP"
 prefixes = ["LFPG"]
 frequency = "121.155"
 facility_type = "APP"
-default_call_sources = ["LFPG_N_APP"]
+default_call_sources = [
+    "LFPG_N_APP",
+    "LFOB_APP",
+    "LFPG_FN_APP",
+    "LFPG_S_APP",
+    "LFPT_APP",
+    "LFPG_N_DEP",
+    "LFOB_I_APP",
+    "LFOB_TWR",
+    "LFPG_N_TWR",
+    "LFPT_TWR",
+    "LFPG_FS_APP",
+    "LFPG_S_DEP",
+    "LFPG_S_TWR",
+    "LFPO_APP",
+    "LFPB_TWR",
+    "LFPL_TWR",
+    "LFPO_F_APP",
+    "LFPO_DEP",
+    "LFPN_TWR",
+    "LFPO_TWR",
+    "LFPN_I_TWR",
+]
 
 [[positions]]
 id = "LFPG_S_APP"
 prefixes = ["LFPG"]
 frequency = "125.830"
 facility_type = "APP"
-default_call_sources = ["LFPG_S_APP"]
+default_call_sources = [
+    "LFPG_S_APP",
+    "LFPG_FS_APP",
+    "LFPG_S_DEP",
+    "LFPO_APP",
+    "LFPB_TWR",
+    "LFPL_TWR",
+    "LFPO_F_APP",
+    "LFPO_DEP",
+    "LFPN_TWR",
+    "LFPO_TWR",
+    "LFPN_I_TWR",
+]
 
 [[positions]]
 id = "LFPM_ISJ_APP"
 prefixes = ["LFPM"]
 frequency = "134.300"
 facility_type = "APP"
-default_call_sources = ["LFPM_ISJ_APP"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPM_ISK_APP"
 prefixes = ["LFPM"]
 frequency = "120.330"
 facility_type = "APP"
-default_call_sources = ["LFPM_ISK_APP"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPM_ISL_APP"
 prefixes = ["LFPM"]
 frequency = "127.815"
 facility_type = "APP"
-default_call_sources = ["LFPM_ISL_APP"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPM_SI_APP"
 prefixes = ["LFPM"]
 frequency = "118.890"
 facility_type = "APP"
-default_call_sources = ["LFPM_SI_APP"]
+default_call_sources = [
+    "LFPM_SI_APP",
+    "LFLA_I_TWR",
+    "LFOK_TWR",
+    "LFOZ_I_TWR",
+    "LFPM_TWR",
+    "LFQA_I_TWR",
+    "LFQB_I_TWR",
+]
 
 [[positions]]
 id = "LFPM_SJ_APP"
 prefixes = ["LFPM"]
 frequency = "118.050"
 facility_type = "APP"
-default_call_sources = ["LFPM_SJ_APP"]
+default_call_sources = [
+    "LFPM_SJ_APP",
+    "LFPM_SI_APP",
+    "LFLD_I_TWR",
+    "LFLA_I_TWR",
+    "LFOK_TWR",
+    "LFOZ_I_TWR",
+    "LFPM_TWR",
+    "LFQA_I_TWR",
+    "LFQB_I_TWR",
+]
 
 [[positions]]
 id = "LFPM_SK_APP"
 prefixes = ["LFPM"]
 frequency = "134.875"
 facility_type = "APP"
-default_call_sources = ["LFPM_SK_APP"]
+default_call_sources = [
+    "LFPM_SK_APP",
+    "LFOQ_I_TWR",
+    "LFOT_TWR",
+]
 
 [[positions]]
 id = "LFPO_APP"
 prefixes = ["LFPO"]
 frequency = "123.875"
 facility_type = "APP"
-default_call_sources = ["LFPO_APP"]
+default_call_sources = [
+    "LFPO_APP",
+    "LFPO_F_APP",
+    "LFPO_DEP",
+    "LFPN_TWR",
+    "LFPO_TWR",
+    "LFPN_I_TWR",
+]
 
 [[positions]]
 id = "LFPO_F_APP"
@@ -423,14 +717,17 @@ id = "LFPT_I_APP"
 prefixes = ["LFPT"]
 frequency = "123.835"
 facility_type = "APP"
-default_call_sources = ["LFPT_I_APP"]
+default_call_sources = []
 
 [[positions]]
 id = "LFQQ_QA_APP"
 prefixes = ["LFQQ"]
 frequency = "129.360"
 facility_type = "APP"
-default_call_sources = ["LFQQ_QA_APP"]
+default_call_sources = [
+    "LFQQ_QA_APP",
+    "LFAQ_TWR",
+]
 
 [[positions]]
 id = "LFQQ_QD_APP"
@@ -444,21 +741,46 @@ id = "LFQQ_QE_APP"
 prefixes = ["LFQQ"]
 frequency = "126.480"
 facility_type = "APP"
-default_call_sources = ["LFQQ_QE_APP"]
+default_call_sources = [
+    "LFQQ_QE_APP",
+    "LFQQ_QA_APP",
+    "LFQQ_QD_APP",
+    "LFQQ_QR_APP",
+    "LFAV_TWR",
+    "LFQQ_TWR",
+    "LFQQ_QW_APP",
+    "LFAQ_TWR",
+    "LFOP_TWR",
+    "LFAC_I_TWR",
+    "LFAT_TWR",
+    "LFQT_TWR",
+]
 
 [[positions]]
 id = "LFQQ_QR_APP"
 prefixes = ["LFQQ"]
 frequency = "134.825"
 facility_type = "APP"
-default_call_sources = ["LFQQ_QR_APP"]
+default_call_sources = [
+    "LFQQ_QR_APP",
+    "LFQQ_QW_APP",
+    "LFOP_TWR",
+    "LFAC_I_TWR",
+    "LFAT_TWR",
+    "LFQT_TWR",
+]
 
 [[positions]]
 id = "LFQQ_QW_APP"
 prefixes = ["LFQQ"]
 frequency = "120.275"
 facility_type = "APP"
-default_call_sources = ["LFQQ_QW_APP"]
+default_call_sources = [
+    "LFQQ_QW_APP",
+    "LFAC_I_TWR",
+    "LFAT_TWR",
+    "LFQT_TWR",
+]
 
 [[positions]]
 id = "LFAC_I_TWR"
@@ -486,7 +808,7 @@ id = "LFAV_I_TWR"
 prefixes = ["LFAV"]
 frequency = "122.605"
 facility_type = "TWR"
-default_call_sources = ["LFAV_I_TWR"]
+default_call_sources = []
 
 [[positions]]
 id = "LFLA_I_TWR"
@@ -542,7 +864,10 @@ id = "LFPG_N_TWR"
 prefixes = ["LFPG"]
 frequency = "119.255"
 facility_type = "TWR"
-default_call_sources = ["LFPG_N_TWR"]
+default_call_sources = [
+    "LFPG_N_TWR",
+    "LFPG_S_TWR",
+]
 
 [[positions]]
 id = "LFPG_S_TWR"
@@ -570,7 +895,10 @@ id = "LFPN_TWR"
 prefixes = ["LFPN"]
 frequency = "120.755"
 facility_type = "TWR"
-default_call_sources = ["LFPN_TWR"]
+default_call_sources = [
+    "LFPN_TWR",
+    "LFPN_I_TWR",
+]
 
 [[positions]]
 id = "LFPO_TWR"
@@ -605,137 +933,137 @@ id = "LFAT_GND"
 prefixes = ["LFAT"]
 frequency = "121.755"
 facility_type = "GND"
-default_call_sources = ["LFAT_GND"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPB_GND"
 prefixes = ["LFPB"]
 frequency = "121.905"
 facility_type = "GND"
-default_call_sources = ["LFPB_GND"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPG_NP_GND"
 prefixes = ["LFPG"]
 frequency = "121.780"
 facility_type = "GND"
-default_call_sources = ["LFPG_NP_GND"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPG_N_GND"
 prefixes = ["LFPG"]
 frequency = "121.610"
 facility_type = "GND"
-default_call_sources = ["LFPG_N_GND"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPG_SE_GND"
 prefixes = ["LFPG"]
 frequency = "121.980"
 facility_type = "GND"
-default_call_sources = ["LFPG_SE_GND"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPG_SW_GND"
 prefixes = ["LFPG"]
 frequency = "121.810"
 facility_type = "GND"
-default_call_sources = ["LFPG_SW_GND"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPN_GND"
 prefixes = ["LFPN"]
 frequency = "122.130"
 facility_type = "GND"
-default_call_sources = ["LFPN_GND"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPO_GND"
 prefixes = ["LFPO"]
 frequency = "121.705"
 facility_type = "GND"
-default_call_sources = ["LFPO_GND"]
+default_call_sources = []
 
 [[positions]]
 id = "LFQQ_GND"
 prefixes = ["LFQQ"]
 frequency = "121.855"
 facility_type = "GND"
-default_call_sources = ["LFQQ_GND"]
+default_call_sources = []
 
 [[positions]]
 id = "LFQT_GND"
 prefixes = ["LFQT"]
 frequency = "121.680"
 facility_type = "GND"
-default_call_sources = ["LFQT_GND"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPB_DEL"
 prefixes = ["LFPB"]
 frequency = "121.955"
 facility_type = "DEL"
-default_call_sources = ["LFPB_DEL"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPG_DEL"
 prefixes = ["LFPG"]
 frequency = "121.840"
 facility_type = "DEL"
-default_call_sources = ["LFPG_DEL"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPO_DEL"
 prefixes = ["LFPO"]
 frequency = "121.555"
 facility_type = "DEL"
-default_call_sources = ["LFPO_DEL"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPG_ACE_RMP"
 prefixes = ["LFPG"]
 frequency = "121.930"
 facility_type = "RMP"
-default_call_sources = ["LFPG_ACE_RMP"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPG_BD_RMP"
 prefixes = ["LFPG"]
 frequency = "121.640"
 facility_type = "RMP"
-default_call_sources = ["LFPG_BD_RMP"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPG_FDX_RMP"
 prefixes = ["LFPG"]
 frequency = "131.605"
 facility_type = "RMP"
-default_call_sources = ["LFPG_FDX_RMP"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPG_F_RMP"
 prefixes = ["LFPG"]
 frequency = "121.580"
 facility_type = "RMP"
-default_call_sources = ["LFPG_F_RMP"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPG_J_RMP"
 prefixes = ["LFPG"]
 frequency = "121.880"
 facility_type = "RMP"
-default_call_sources = ["LFPG_J_RMP"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPG_KL_RMP"
 prefixes = ["LFPG"]
 frequency = "121.680"
 facility_type = "RMP"
-default_call_sources = ["LFPG_KL_RMP"]
+default_call_sources = []
 
 [[positions]]
 id = "LFPG_RMP"
 prefixes = ["LFPG"]
 frequency = "121.940"
 facility_type = "RMP"
-default_call_sources = ["LFPG_RMP"]
+default_call_sources = []
