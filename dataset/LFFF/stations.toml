@@ -3,6 +3,10 @@ id = "LFXX_FMP"
 controlled_by = ["LFXX_FMP"]
 
 [[stations]]
+id = "LFFM_CTR"
+controlled_by = ["LFFM_CTR"]
+
+[[stations]]
 id = "PAR_AO"
 controlled_by = [
     "PAR_AO_CTR",
@@ -249,7 +253,7 @@ controlled_by = [
 id = "PAR_TU"
 controlled_by = [
     "PAR_UJ_CTR",
-    "PAR_LMJH_CTR",
+    "PAR_LMHJ_CTR",
     "PAR_DGTJ_CTR",
     "PAR_RPAE_CTR",
     "PAR_LOW_CTR",
@@ -260,7 +264,7 @@ controlled_by = [
 id = "PAR_TW"
 controlled_by = [
     "PAR_UJ_CTR",
-    "PAR_LMJH_CTR",
+    "PAR_LMHJ_CTR",
     "PAR_DGTJ_CTR",
     "PAR_RPAE_CTR",
     "PAR_LOW_CTR",
@@ -271,7 +275,7 @@ controlled_by = [
 id = "PAR_UJ"
 controlled_by = [
     "PAR_UJ_CTR",
-    "PAR_LMJH_CTR",
+    "PAR_LMHJ_CTR",
     "PAR_DGTJ_CTR",
     "PAR_RPAE_CTR",
     "PAR_LOW_CTR",
@@ -337,16 +341,7 @@ controlled_by = [
 [[stations]]
 id = "LFOB_APP"
 parent_id = "LFPG_N_APP"
-controlled_by = [
-    "LFOB_APP",
-    "LFPG_N_APP",
-    "PAR_DODG_CTR",
-    "PAR_DOGS_CTR",
-    "PAR_FPAE_CTR",
-    "PAR_RPAE_CTR",
-    "PAR_LOW_CTR",
-    "PAR_CTR",
-]
+controlled_by = ["LFOB_APP"]
 
 [[stations]]
 id = "LFOB_I_APP"
@@ -518,7 +513,7 @@ controlled_by = ["LFAT_TWR"]
 [[stations]]
 id = "LFAV_TWR"
 parent_id = "LFQQ_QE_APP"
-controlled_by = ["LFAV_TWR"]
+controlled_by = ["LFAV_I_TWR"]
 
 [[stations]]
 id = "LFLA_I_TWR"
@@ -652,3 +647,123 @@ controlled_by = ["LFQQ_TWR"]
 id = "LFQT_TWR"
 parent_id = "LFQQ_QW_APP"
 controlled_by = ["LFQT_TWR"]
+
+[[stations]]
+id = "LFAT_GND"
+parent_id = "LFAT_TWR"
+controlled_by = ["LFAT_GND"]
+
+[[stations]]
+id = "LFPB_GND"
+parent_id = "LFPB_TWR"
+controlled_by = ["LFPB_GND"]
+
+[[stations]]
+id = "LFPG_N_GND"
+parent_id = "LFPG_N_TWR"
+controlled_by = ["LFPG_N_GND"]
+
+[[stations]]
+id = "LFPG_NP_GND"
+parent_id = "LFPG_N_GND"
+controlled_by = ["LFPG_NP_GND"]
+
+[[stations]]
+id = "LFPG_SW_GND"
+parent_id = "LFPG_N_GND"
+controlled_by = ["LFPG_SW_GND"]
+
+[[stations]]
+id = "LFPG_SE_GND"
+parent_id = "LFPG_SW_GND"
+controlled_by = ["LFPG_SE_GND"]
+
+[[stations]]
+id = "LFPL_GND"
+parent_id = "LFPL_TWR"
+controlled_by = ["LFPL_GND"]
+
+[[stations]]
+id = "LFPN_GND"
+parent_id = "LFPN_TWR"
+controlled_by = ["LFPN_GND"]
+
+[[stations]]
+id = "LFPO_GND"
+parent_id = "LFPO_TWR"
+controlled_by = ["LFPO_GND"]
+
+[[stations]]
+id = "LFPV_GND"
+parent_id = "LFPV_TWR"
+controlled_by = ["LFPV_GND"]
+
+[[stations]]
+id = "LFPX_GND"
+parent_id = "LFPX_TWR"
+controlled_by = ["LFPX_GND"]
+
+[[stations]]
+id = "LFPZ_GND"
+parent_id = "LFPZ_TWR"
+controlled_by = ["LFPZ_GND"]
+
+[[stations]]
+id = "LFQQ_GND"
+parent_id = "LFQQ_TWR"
+controlled_by = ["LFQQ_GND"]
+
+[[stations]]
+id = "LFQT_GND"
+parent_id = "LFQT_TWR"
+controlled_by = ["LFQT_GND"]
+
+[[stations]]
+id = "LFPG_RMP"
+parent_id = "LFPG_SW_GND"
+controlled_by = ["LFPG_RMP"]
+
+[[stations]]
+id = "LFPG_BD_RMP"
+parent_id = "LFPG_RMP"
+controlled_by = ["LFPG_BD_RMP"]
+
+[[stations]]
+id = "LFPG_F_RMP"
+parent_id = "LFPG_RMP"
+controlled_by = ["LFPG_F_RMP"]
+
+[[stations]]
+id = "LFPG_KL_RMP"
+parent_id = "LFPG_RMP"
+controlled_by = ["LFPG_KL_RMP"]
+
+[[stations]]
+id = "LFPG_J_RMP"
+parent_id = "LFPG_RMP"
+controlled_by = ["LFPG_J_RMP"]
+
+[[stations]]
+id = "LFPG_ACE_RMP"
+parent_id = "LFPG_RMP"
+controlled_by = ["LFPG_ACE_RMP"]
+
+[[stations]]
+id = "LFPG_FDX_RMP"
+parent_id = "LFPG_N_GND"
+controlled_by = ["LFPG_FDX_RMP"]
+
+[[stations]]
+id = "LFPB_DEL"
+parent_id = "LFPB_GND"
+controlled_by = ["LFPB_DEL"]
+
+[[stations]]
+id = "LFPG_DEL"
+parent_id = "LFPG_N_GND"
+controlled_by = ["LFPG_DEL"]
+
+[[stations]]
+id = "LFPO_DEL"
+parent_id = "LFPO_GND"
+controlled_by = ["LFPO_DEL"]
