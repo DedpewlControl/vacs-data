@@ -1,0 +1,393 @@
+{
+  "id": "LFPG",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ROLE"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["TP", "MOPAR"],
+            "station_id": "PAR_TP"
+          },
+          {
+            "label": ["TE", "LORNI"],
+            "station_id": "PAR_TE"
+          },
+          {
+            "label": ["RT", "BANOX"],
+            "station_id": "PAR_RT"
+          },
+          {
+            "label": ["AR", "OKIPA"],
+            "station_id": "PAR_AR"
+          },
+          {
+            "label": ["TN"],
+            "station_id": "PAR_TN"
+          },
+          {
+            "label": ["TM"],
+            "station_id": "PAR_TM"
+          },
+          {
+            "label": ["TH"],
+            "station_id": "PAR_TH"
+          },
+          {
+            "label": ["DG"],
+            "station_id": "PAR_DG"
+          },
+          {
+            "label": ["TE"],
+            "station_id": "PAR_TE"
+          },
+          {
+            "label": ["TL"],
+            "station_id": "PAR_TL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SEINE"],
+            "station_id": "LFPM_SJ_APP"
+          },
+          {
+            "label": ["BVS"],
+            "station_id": "LFOB_APP"
+          },
+          {
+            "label": ["PON", "TWR"],
+            "station_id": "LFPT_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LB", "APP PON"],
+            "station_id": "LFPT_APP"
+          },
+          {
+            "label": ["LB", "SIV"],
+            "station_id": "LFPT_I_APP"
+          },
+          {
+            "label": ["OL", "DEP"]
+          },
+          {
+            "label": ["OL", "ARR"]
+          },
+          {
+            "label": ["LB", "TWR"],
+            "station_id": "LFPB_TWR"
+          },
+          {
+            "label": ["COOR", "INI N", ""],
+            "station_id": "LFPG_N_APP"
+          },
+          {
+            "label": ["COOR", "INI S", ""],
+            "station_id": "LFPG_S_APP"
+          },
+          {
+            "label": ["EACA", "", ""]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ASS", "LOC N", ""],
+            "station_id": "LFPG_N_TWR"
+          },
+          {
+            "label": ["ASS", "LOC S"],
+            "station_id": "LFPG_S_TWR"
+          },
+          {
+            "label": ["CT"]
+          },
+          {
+            "label": ["ACDS", "FMP"],
+            "color": "taupe",
+            "station_id": "LFXX_FMP"
+          },
+          {
+            "label": ["ASS", "HIVER", "CT"]
+          },
+          {
+            "label": ["C VS"]
+          }
+        ]
+      }
+    },
+    {
+      "label": ["CDG", "VIG"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["CQ SOL"]
+          },
+          {
+            "label": ["ACDS", "FMP"],
+            "color": "taupe",
+            "station_id": "LFXX_FMP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["PCO", "VS"]
+          },
+          {
+            "label": ["PC AFR", "SOL S"]
+          },
+          {
+            "label": ["PVL 1"],
+            "station_id": "LFPG_DEL"
+          },
+          {
+            "label": ["PVL 2"],
+            "station_id": "LFPG_DEL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["DEGIVRE"]
+          },
+          {
+            "label": ["VTS", "B D"],
+            "station_id": "LFPG_BD_RMP"
+          },
+          {
+            "label": ["VTS", " F"],
+            "station_id": "LFPG_F_RMP"
+          },
+          {
+            "label": ["VTS", "A C E"],
+            "station_id": "LFPG_ACE_RMP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["VTE", "J"],
+            "station_id": "LFPG_J_RMP"
+          },
+          {
+            "label": ["VTE", "AGEN"]
+          },
+          {
+            "label": ["VTE", "K L"],
+            "station_id": "LFPG_KL_RMP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SOL NW"],
+            "station_id": "LFPG_N_GND"
+          },
+          {
+            "label": ["SOL NE"],
+            "station_id": "LFPG_NP_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SOL SE"],
+            "station_id": "LFPG_SE_GND"
+          },
+          {
+            "label": ["COOR", "DEP N"],
+            "station_id": "LFPG_N_DEP"
+          },
+          {
+            "label": ["COOR DEP S"],
+            "station_id": "LFPG_S_DEP"
+          },
+          {
+            "label": ["COOR", "INI"],
+            "station_id": "LFPG_FN_APP"
+          },
+          {
+            "label": ["GILDAAS", "*"]
+          },
+          {
+            "label": ["CT"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LOC N"],
+            "station_id": "LFPG_N_TWR"
+          },
+          {
+            "label": ["LOC S"],
+            "station_id": "LFPG_S_TWR"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["CDG", "IFR"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["LILLE", "QR"],
+            "station_id": "LFQQ_QR_APP"
+          },
+          {
+            "label": ["EVREUX", "APP"],
+            "station_id": "LFOE_APP"
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["SEINE", "SK"],
+            "station_id": "LFPM_SK_APP"
+          },
+          {
+            "label": ["LILLE", "QD"],
+            "station_id": "LFQQ_QD_APP"
+          },
+          {
+            "label": ["BOV", "APP"],
+            "station_id": "LFOB_APP"
+          },
+          {
+            "label": ["BOV", "SIV"],
+            "station_id": "LFOB_I_APP"
+          },
+          {
+            "label": ["ORLEANS", "APP"],
+            "station_id": "LFOJ_APP"
+          },
+          {
+            "label": ["LILLE", "QW"],
+            "station_id": "LFQQ_QW_APP"
+          },
+          {
+            "label": ["COOR CDG", "INI NORD"],
+            "station_id": "LFPG_N_APP"
+          },
+          {
+            "label": ["COOR CDG", "INI SUD"],
+            "station_id": "LFPG_S_APP"
+          },
+          {
+            "label": ["COOR CDG", "ITM"],
+            "station_id": "LFPG_FN_APP"
+          },
+          {
+            "label": ["LILLE", "QD"],
+            "station_id": "LFQQ_QD_APP"
+          },
+          {
+            "label": ["COOR CDG", "DEP NORD"],
+            "station_id": "LFPG_N_DEP"
+          },
+          {
+            "label": ["COOR CDG", "DEP SUD"],
+            "station_id": "LFPG_S_DEP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LILLE", "QE"],
+            "station_id": "LFQQ_QE_APP"
+          },
+          {
+            "label": ["COOR ORY", "INI", ""],
+            "station_id": "LFPO_APP"
+          },
+          {
+            "label": ["COOR ORY", "DEP"],
+            "station_id": "LFPO_DEP"
+          },
+          {
+            "label": ["COOR ORY", "ITM"],
+            "station_id": "LFPO_F_APP"
+          },
+          {
+            "label": ["ACDS", "FMP"],
+            "color": "taupe",
+            "station_id": "LFXX_FMP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SEINE", "SI"],
+            "station_id": "LFPM_SI_APP"
+          },
+          {
+            "label": ["SEINE", "SJ"],
+            "station_id": "LFPM_SJ_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["EXT", "IFR"],
+      "page": {
+        "rows": 4,
+        "keys": []
+      }
+    },
+    {
+      "label": ["PF"],
+      "page": {
+        "rows": 4,
+        "keys": []
+      }
+    }
+  ]
+}
