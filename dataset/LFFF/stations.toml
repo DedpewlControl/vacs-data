@@ -625,6 +625,10 @@ id = "LFPX_TWR"
 controlled_by = ["LFPX_TWR"]
 
 [[stations]]
+id = "LFPE_TWR"
+controlled_by = ["LFPE_TWR"]
+
+[[stations]]
 id = "LFPZ_TWR"
 controlled_by = ["LFPZ_TWR"]
 
