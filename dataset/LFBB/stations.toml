@@ -258,9 +258,9 @@ parent_id = "LFBO_AE_APP"
 controlled_by = ["LFBO_TWR"]
 
 [[stations]]
-id = "LFBO_I_TWR"
+id = "LFBO_I_GND"
 parent_id = "LFBO_TWR"
-controlled_by = ["LFBO_I_TWR"]
+controlled_by = ["LFBO_I_GND"]
 
 [[stations]]
 id = "LFBP_TWR"
@@ -301,6 +301,11 @@ controlled_by = ["LFCK_I_TWR"]
 id = "LFCL_TWR"
 parent_id = "LFBO_AE_APP"
 controlled_by = ["LFCL_TWR"]
+
+[[stations]]
+id = "LFCI_I_TWR"
+parent_id = "LFBO_AE_APP"
+controlled_by = ["LFCI_I_TWR"]
 
 [[stations]]
 id = "LFDN_I_TWR"
