@@ -3,63 +3,136 @@ id = "LFMM_A_CTR"
 prefixes = ["LFMM"]
 frequency = "134.260"
 facility_type = "CTR"
-default_call_sources = ["LFMM_A_CTR"]
+default_call_sources = ["LFMM_A1"]
 
 [[positions]]
 id = "LFMM_CTR"
 prefixes = ["LFMM"]
 frequency = "123.900"
 facility_type = "CTR"
-default_call_sources = ["LFMM_CTR"]
+default_call_sources = [
+  "LFMM_A1",
+  "LFMM_AJ",
+  "LFMM_B",
+  "LFMM_BT",
+  "LFMM_D",
+  "LFMM_E",
+  "LFMM_F",
+  "LFMM_G",
+  "LFMM_K",
+  "LFMM_LE",
+  "LFMM_LO",
+  "LFMM_LS",
+  "LFMM_M",
+  "LFMM_ML",
+  "LFMM_MN",
+  "LFMM_MO",
+  "LFMM_ST",
+  "LFMM_W",
+  "LFMM_Y",
+  "LFMM_Z"
+]
 
 [[positions]]
 id = "LFMM_EU_CTR"
 prefixes = ["LFMM"]
 frequency = "132.385"
 facility_type = "CTR"
-default_call_sources = ["LFMM_EU_CTR"]
+default_call_sources = ["LFMM_B", "LFMM_G", "LFMM_A1"]
 
 [[positions]]
 id = "LFMM_E_CTR"
 prefixes = ["LFMM"]
 frequency = "133.760"
 facility_type = "CTR"
-default_call_sources = ["LFMM_E_CTR"]
+default_call_sources = [
+  "LFMM_AJ",
+  "LFMM_BT",
+  "LFMM_E",
+  "LFMM_K",
+  "LFMM_MN",
+  "LFMM_ST"
+]
 
 [[positions]]
 id = "LFMM_RAE_CTR"
 prefixes = ["LFMM"]
 frequency = "132.490"
 facility_type = "CTR"
-default_call_sources = ["LFMM_RAE_CTR"]
+default_call_sources = [
+  "LFMM_A1",
+  "LFMM_AJ",
+  "LFMM_B",
+  "LFMM_BT",
+  "LFMM_E",
+  "LFMM_G",
+  "LFMM_K",
+  "LFMM_MN",
+  "LFMM_ST",
+  "LFMM_Y"
+]
 
 [[positions]]
 id = "LFMM_RAW_CTR"
 prefixes = ["LFMM"]
 frequency = "133.430"
 facility_type = "CTR"
-default_call_sources = ["LFMM_RAW_CTR"]
+default_call_sources = [
+  "LFMM_D",
+  "LFMM_F",
+  "LFMM_LE",
+  "LFMM_LO",
+  "LFMM_LS",
+  "LFMM_M",
+  "LFMM_ML",
+  "LFMM_MO",
+  "LFMM_W",
+  "LFMM_Z"
+]
 
 [[positions]]
 id = "LFMM_U_CTR"
 prefixes = ["LFMM"]
 frequency = "125.465"
 facility_type = "CTR"
-default_call_sources = ["LFMM_U_CTR"]
+default_call_sources = [
+  "LFMM_E",
+  "LFMM_K",
+  "LFMM_B",
+  "LFMM_D",
+  "LFMM_F",
+  "LFMM_G",
+  "LFMM_M",
+  "LFMM_Y",
+  "LFMM_Z"
+]
 
 [[positions]]
 id = "LFMM_WU_CTR"
 prefixes = ["LFMM"]
 frequency = "133.585"
 facility_type = "CTR"
-default_call_sources = ["LFMM_WU_CTR"]
+default_call_sources = [
+  "LFMM_D",
+  "LFMM_F",
+  "LFMM_M",
+  "LFMM_Z",
+  "LFMM_W"
+]
 
 [[positions]]
 id = "LFMM_W_CTR"
 prefixes = ["LFMM"]
 frequency = "132.365"
 facility_type = "CTR"
-default_call_sources = ["LFMM_W_CTR"]
+default_call_sources = [
+  "LFMM_LE",
+  "LFMM_LO",
+  "LFMM_LS",
+  "LFMM_ML",
+  "LFMM_MO",
+  "LFMM_W"
+]
 
 [[positions]]
 id = "LFMN_ND_DEP"
