@@ -913,6 +913,20 @@ default_call_sources = [
 ]
 
 [[positions]]
+id = "LFOA_APP"
+prefixes = ["LFOA"]
+frequency = "119.700"
+facility_type = "APP"
+default_call_sources = ["LFOA_APP"]
+
+[[positions]]
+id = "LFOA_TWR"
+prefixes = ["LFOA"]
+frequency = "122.100"
+facility_type = "TWR"
+default_call_sources = ["LFOA_TWR"]
+
+[[positions]]
 id = "LFOB_APP"
 prefixes = ["LFOB"]
 frequency = "123.985"
@@ -925,6 +939,41 @@ prefixes = ["LFOB"]
 frequency = "119.800"
 facility_type = "APP"
 default_call_sources = ["LFOB_I_APP"]
+
+[[positions]]
+id = "LFOE_APP"
+prefixes = ["LFOE"]
+frequency = "118.125"
+facility_type = "APP"
+default_call_sources = ["LFOE_APP"]
+
+[[positions]]
+id = "LFOE_TWR"
+prefixes = ["LFOE"]
+frequency = "122.100"
+facility_type = "TWR"
+default_call_sources = ["LFOE_TWR"]
+
+[[positions]]
+id = "LFOJ_APP"
+prefixes = ["LFOJ"]
+frequency = "122.700"
+facility_type = "APP"
+default_call_sources = ["LFOJ_APP"]
+
+[[positions]]
+id = "LFOJ_TWR"
+prefixes = ["LFOJ"]
+frequency = "124.800"
+facility_type = "TWR"
+default_call_sources = ["LFOJ_TWR"]
+
+[[positions]]
+id = "LFOQ_I_TWR"
+prefixes = ["LFOQ"]
+frequency = "118.455"
+facility_type = "TWR"
+default_call_sources = ["LFOQ_I_TWR"]
 
 [[positions]]
 id = "LFPG_FN_APP"
@@ -1011,6 +1060,20 @@ default_call_sources = [
   "LFPO_GND",
   "LFPO_DEL",
 ]
+
+[[positions]]
+id = "LFPL_TWR"
+prefixes = ["LFPL"]
+frequency = "118.605"
+facility_type = "TWR"
+default_call_sources = ["LFPL_TWR"]
+
+[[positions]]
+id = "LFPL_GND"
+prefixes = ["LFPL"]
+frequency = "122.130"
+facility_type = "GND"
+default_call_sources = ["LFPL_GND"]
 
 [[positions]]
 id = "LFPM_ISJ_APP"
@@ -1109,6 +1172,48 @@ prefixes = ["LFPT"]
 frequency = "123.835"
 facility_type = "APP"
 default_call_sources = []
+
+[[positions]]
+id = "LFPX_TWR"
+prefixes = ["LFPX"]
+frequency = "129.525"
+facility_type = "TWR"
+default_call_sources = ["LFPX_TWR"]
+
+[[positions]]
+id = "LFPX_GND"
+prefixes = ["LFPX"]
+frequency = "121.900"
+facility_type = "GND"
+default_call_sources = ["LFPX_GND"]
+
+[[positions]]
+id = "LFPZ_TWR"
+prefixes = ["LFPZ"]
+frequency = "118.000"
+facility_type = "TWR"
+default_call_sources = ["LFPZ_TWR"]
+
+[[positions]]
+id = "LFPZ_GND"
+prefixes = ["LFPZ"]
+frequency = "121.950"
+facility_type = "GND"
+default_call_sources = ["LFPZ_GND"]
+
+[[positions]]
+id = "LFQA_I_TWR"
+prefixes = ["LFQA"]
+frequency = "134.930"
+facility_type = "TWR"
+default_call_sources = ["LFQA_I_TWR"]
+
+[[positions]]
+id = "LFQB_I_TWR"
+prefixes = ["LFQB"]
+frequency = "123.730"
+facility_type = "TWR"
+default_call_sources = ["LFQB_I_TWR"]
 
 [[positions]]
 id = "LFQQ_QA_APP"
@@ -1500,3 +1605,24 @@ default_call_sources = [
   "LFPG_J_RMP",
   "LFPG_ACE_RMP",
 ]
+
+[[positions]]
+id = "LFPV_APP"
+prefixes = ["LFPV"]
+frequency = "119.425"
+facility_type = "APP"
+default_call_sources = ["LFPV_APP"]
+
+[[positions]]
+id = "LFPV_TWR"
+prefixes = ["LFPV"]
+frequency = "128.950"
+facility_type = "TWR"
+default_call_sources = ["LFPV_TWR"]
+
+[[positions]]
+id = "LFPV_GND"
+prefixes = ["LFPV"]
+frequency = "121.750"
+facility_type = "GND"
+default_call_sources = ["LFPV_GND"]
