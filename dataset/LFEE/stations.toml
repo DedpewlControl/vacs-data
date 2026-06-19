@@ -116,6 +116,11 @@ id = "LFQP_APP"
 controlled_by = ["LFQP_APP", "LFFM_CTR"]
 
 [[stations]]
+id = "LFQP_TWR"
+parent_id = "LFQP_APP"
+controlled_by = ["LFQP_TWR"]
+
+[[stations]]
 id = "LFSI_APP"
 controlled_by = ["LFSI_APP", "LFFM_CTR"]
 
