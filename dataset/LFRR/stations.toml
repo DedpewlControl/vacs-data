@@ -275,7 +275,6 @@ controlled_by = [
   "LFRS_IE_APP",
   "LFRS_NB_APP",
   "LFRS_NA_APP",
-  "LFRN_RS_APP",
   "LFRR_S_CTR",
   "LFRR_CTR",
 ]
@@ -288,7 +287,6 @@ controlled_by = [
   "LFRS_IE_APP",
   "LFRS_NB_APP",
   "LFRS_NA_APP",
-  "LFRN_RS_APP",
   "LFRR_S_CTR",
   "LFRR_CTR",
 ]
@@ -301,7 +299,6 @@ controlled_by = [
   "LFRS_IE_APP",
   "LFRS_NB_APP",
   "LFRS_NA_APP",
-  "LFRN_RS_APP",
   "LFRR_S_CTR",
   "LFRR_CTR",
 ]
@@ -312,7 +309,6 @@ controlled_by = [
   "LFJR_I_TWR",
   "LFRS_IE_APP",
   "LFRS_NB_APP",
-  "LFRN_RS_APP",
   "LFRR_S_CTR",
   "LFRR_CTR",
 ]
@@ -447,9 +443,9 @@ id = "LFRQ_TWR"
 controlled_by = ["LFRQ_TWR", "LFRB_APP", "LFRR_W_CTR", "LFRR_CTR"]
 
 [[stations]]
-id = "LFRS_I_TWR"
+id = "LFRS_TWR"
 controlled_by = [
-  "LFRS_I_TWR",
+  "LFRS_TWR",
   "LFRS_NB_APP",
   "LFRS_RS_APP",
   "LFRR_S_CTR",
