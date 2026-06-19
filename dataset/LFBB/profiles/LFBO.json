@@ -48,13 +48,11 @@
           },
           {
             "label": ["LFBF*"],
-            "color": "lavender",
-            "station_id": "LFBF_TWR"
+            "color": "lavender"
           },
           {
             "label": ["LFDJ*"],
-            "color": "lavender",
-            "station_id": "LFDJ_I_TWR"
+            "color": "lavender"
           },
           {
             "label": ["LFBP*"],
@@ -93,13 +91,11 @@
           },
           {
             "label": ["TZ*"],
-            "color": "lilac",
-            "station_id": "LFBB_"
+            "color": "lilac"
           },
           {
             "label": ["LFCI*"],
-            "color": "lavender",
-            "station_id": "LFCI_I_TWR"
+            "color": "lavender"
           },
           {
             "label": ["T4*"],

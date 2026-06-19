@@ -416,6 +416,11 @@ parent_id = "LFPG_N_APP"
 controlled_by = ["LFPT_APP"]
 
 [[stations]]
+id = "LFPT_I_APP"
+parent_id = "LFPT_APP"
+controlled_by = ["LFPT_I_APP"]
+
+[[stations]]
 id = "LFQQ_QA_APP"
 parent_id = "LFQQ_QE_APP"
 controlled_by = ["LFQQ_QA_APP"]

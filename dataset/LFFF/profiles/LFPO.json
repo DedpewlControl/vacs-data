@@ -175,12 +175,12 @@
           {
             "label": ["LFPN", "DEP"],
             "color": "clay",
-            "station_id": "LFPN_APP"
+            "station_id": "LFPO_APP"
           },
           {
             "label": ["LFPN", "ARR"],
             "color": "clay",
-            "station_id": "LFPN_APP"
+            "station_id": "LFPO_APP"
           },
           {
             "label": ["ITM"],

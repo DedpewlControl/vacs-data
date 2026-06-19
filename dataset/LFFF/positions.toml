@@ -1171,7 +1171,7 @@ id = "LFPT_I_APP"
 prefixes = ["LFPT"]
 frequency = "123.835"
 facility_type = "APP"
-default_call_sources = []
+default_call_sources = ["LFPT_I_APP"]
 
 [[positions]]
 id = "LFPX_TWR"
