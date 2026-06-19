@@ -42,7 +42,6 @@ default_call_sources = [
   "LFBL_TWR",
   "LFBN_I_TWR",
   "LFBO_TWR",
-  "LFBO_I_TWR",
   "LFBP_TWR",
   "LFBR_TWR",
   "LFBT_TWR",
@@ -285,7 +284,6 @@ default_call_sources = [
   "LFBO_F_APP",
   "LFBA_TWR",
   "LFBO_TWR",
-  "LFBO_I_TWR",
   "LFBR_TWR",
   "LFCK_I_TWR",
   "LFCL_TWR",
@@ -469,7 +467,7 @@ id = "LFBO_TWR"
 prefixes = ["LFBO"]
 frequency = "118.105"
 facility_type = "TWR"
-default_call_sources = ["LFBO_TWR", "LFBO_I_TWR", "LFBO_GND", "LFBO_DEL"]
+default_call_sources = ["LFBO_TWR", "LFBO_GND", "LFBO_DEL"]
 
 [[positions]]
 id = "LFBP_TWR"

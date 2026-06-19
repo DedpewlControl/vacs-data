@@ -261,11 +261,6 @@ parent_id = "LFBO_AE_APP"
 controlled_by = ["LFCL_TWR"]
 
 [[stations]]
-id = "LFCI_I_TWR"
-parent_id = "LFBO_AE_APP"
-controlled_by = ["LFCI_I_TWR"]
-
-[[stations]]
 id = "LFDN_I_TWR"
 parent_id = "LFBH_APP"
 controlled_by = ["LFDN_I_TWR"]
