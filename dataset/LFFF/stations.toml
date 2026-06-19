@@ -515,6 +515,10 @@ parent_id = "LFPM_SJ_APP"
 controlled_by = ["LFLD_I_TWR"]
 
 [[stations]]
+id = "LFOA_APP"
+controlled_by = ["LFOA_APP"]
+
+[[stations]]
 id = "LFOA_TWR"
 parent_id = "LFOA_APP"
 controlled_by = ["LFOA_TWR"]
@@ -525,9 +529,17 @@ parent_id = "LFOB_APP"
 controlled_by = ["LFOB_TWR"]
 
 [[stations]]
+id = "LFOE_APP"
+controlled_by = ["LFOE_APP"]
+
+[[stations]]
 id = "LFOE_TWR"
 parent_id = "LFOE_APP"
 controlled_by = ["LFOE_TWR"]
+
+[[stations]]
+id = "LFOJ_APP"
+controlled_by = ["LFOJ_APP"]
 
 [[stations]]
 id = "LFOJ_TWR"
@@ -605,6 +617,10 @@ parent_id = "LFPG_N_DEP"
 controlled_by = ["LFPT_TWR"]
 
 [[stations]]
+id = "LFPV_APP"
+controlled_by = ["LFPV_APP"]
+
+[[stations]]
 id = "LFPV_TWR"
 parent_id = "LFPV_APP"
 controlled_by = ["LFPV_TWR"]
@@ -612,10 +628,6 @@ controlled_by = ["LFPV_TWR"]
 [[stations]]
 id = "LFPX_TWR"
 controlled_by = ["LFPX_TWR"]
-
-[[stations]]
-id = "LFPE_TWR"
-controlled_by = ["LFPE_TWR"]
 
 [[stations]]
 id = "LFPZ_TWR"
