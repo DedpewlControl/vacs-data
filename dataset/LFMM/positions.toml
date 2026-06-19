@@ -30,7 +30,7 @@ default_call_sources = [
   "LFMM_ST",
   "LFMM_W",
   "LFMM_Y",
-  "LFMM_Z"
+  "LFMM_Z",
 ]
 
 [[positions]]
@@ -51,7 +51,7 @@ default_call_sources = [
   "LFMM_E",
   "LFMM_K",
   "LFMM_MN",
-  "LFMM_ST"
+  "LFMM_ST",
 ]
 
 [[positions]]
@@ -69,7 +69,7 @@ default_call_sources = [
   "LFMM_K",
   "LFMM_MN",
   "LFMM_ST",
-  "LFMM_Y"
+  "LFMM_Y",
 ]
 
 [[positions]]
@@ -87,7 +87,7 @@ default_call_sources = [
   "LFMM_ML",
   "LFMM_MO",
   "LFMM_W",
-  "LFMM_Z"
+  "LFMM_Z",
 ]
 
 [[positions]]
@@ -104,7 +104,7 @@ default_call_sources = [
   "LFMM_G",
   "LFMM_M",
   "LFMM_Y",
-  "LFMM_Z"
+  "LFMM_Z",
 ]
 
 [[positions]]
@@ -112,13 +112,7 @@ id = "LFMM_WU_CTR"
 prefixes = ["LFMM"]
 frequency = "133.585"
 facility_type = "CTR"
-default_call_sources = [
-  "LFMM_D",
-  "LFMM_F",
-  "LFMM_M",
-  "LFMM_Z",
-  "LFMM_W"
-]
+default_call_sources = ["LFMM_D", "LFMM_F", "LFMM_M", "LFMM_Z", "LFMM_W"]
 
 [[positions]]
 id = "LFMM_W_CTR"
@@ -131,7 +125,7 @@ default_call_sources = [
   "LFMM_LS",
   "LFMM_ML",
   "LFMM_MO",
-  "LFMM_W"
+  "LFMM_W",
 ]
 
 [[positions]]
