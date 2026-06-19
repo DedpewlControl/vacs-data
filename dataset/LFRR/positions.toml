@@ -293,6 +293,13 @@ facility_type = "TWR"
 default_call_sources = ["LFOU_I_TWR"]
 
 [[positions]]
+id = "LFOV_I_TWR"
+prefixes = ["LFOV"]
+frequency = "120.805"
+facility_type = "TWR"
+default_call_sources = ["LFOV_I_TWR"]
+
+[[positions]]
 id = "LFRB_TWR"
 prefixes = ["LFRB"]
 frequency = "120.105"
@@ -431,6 +438,41 @@ prefixes = ["LFRN"]
 frequency = "121.730"
 facility_type = "GND"
 default_call_sources = ["LFRN_GND"]
+
+[[positions]]
+id = "LFRJ_APP"
+prefixes = ["LFRJ"]
+frequency = "122.400"
+facility_type = "APP"
+default_call_sources = ["LFRJ_APP"]
+
+[[positions]]
+id = "LFRJ_TWR"
+prefixes = ["LFRJ"]
+frequency = "119.200"
+facility_type = "TWR"
+default_call_sources = ["LFRJ_TWR"]
+
+[[positions]]
+id = "LFRL_APP"
+prefixes = ["LFRL"]
+frequency = "120.600"
+facility_type = "APP"
+default_call_sources = ["LFRL_APP"]
+
+[[positions]]
+id = "LFRL_TWR"
+prefixes = ["LFRL"]
+frequency = "123.200"
+facility_type = "TWR"
+default_call_sources = ["LFRL_TWR"]
+
+[[positions]]
+id = "LFRL_GND"
+prefixes = ["LFRL"]
+frequency = "121.900"
+facility_type = "GND"
+default_call_sources = ["LFRL_GND"]
 
 [[positions]]
 id = "LFRS_GND"
