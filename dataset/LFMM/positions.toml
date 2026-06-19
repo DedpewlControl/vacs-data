@@ -296,6 +296,13 @@ default_call_sources = [
 ]
 
 [[positions]]
+id = "LFLD_I_TWR"
+prefixes = ["LFLD"]
+frequency = "119.600"
+facility_type = "TWR"
+default_call_sources = ["LFLD_I_TWR"]
+
+[[positions]]
 id = "LFLL_F_APP"
 prefixes = ["LFLL"]
 frequency = "120.230"
