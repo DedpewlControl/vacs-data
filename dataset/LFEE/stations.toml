@@ -92,10 +92,6 @@ controlled_by = [
   "LFSB_APP",
   "LFSB_C_APP",
   "LFEE_CTR",
-  "LSAZ_W_CTR",
-  "LSAZ_S_CTR",
-  "LSAZ_CTR",
-  "LSAS_CTR",
 ]
 
 [[stations]]
