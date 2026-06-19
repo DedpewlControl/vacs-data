@@ -8,9 +8,6 @@
         "rows": 6,
         "keys": [
           {
-            "label": []
-          },
-          {
             "label": ["PO_INI", "AD"],
             "color": "lagoon",
             "station_id": "LFPO_APP"
@@ -26,13 +23,14 @@
             "station_id": "LFPO_F_APP"
           },
           {
+            "label": ["SEINE"],
+            "station_id": "LFPM_SI_APP"
+          },
+          {
             "label": ["r365_ZI_34"]
           },
           {
             "label": ["ff_ZS_US"]
-          },
-          {
-            "label": []
           },
           {
             "label": ["PG_INI_SUD"],
@@ -50,8 +48,12 @@
             "station_id": "LFPG_S_DEP"
           },
           {
+            "label": []
+          },
+          {
             "label": ["UZ"],
-            "color": "mint"
+            "color": "mint",
+            "station_id": "PAR_UZ"
           },
           {
             "label": ["LFOK"],
