@@ -328,6 +328,10 @@ controlled_by = [
 ]
 
 [[stations]]
+id = "LFOU_I_TWR"
+controlled_by = ["LFOU_I_TWR"]
+
+[[stations]]
 id = "LFOV_I_TWR"
 controlled_by = ["LFOV_I_TWR", "LFRN_RN_APP", "LFRR_W_CTR", "LFRR_CTR"]
 
@@ -380,8 +384,13 @@ controlled_by = [
 ]
 
 [[stations]]
+id = "LFRH_APP"
+controlled_by = ["LFRH_APP", "LFRB_APP", "LFRR_W_CTR", "LFRR_CTR"]
+
+[[stations]]
 id = "LFRH_TWR"
-controlled_by = ["LFRH_TWR", "LFRH_APP", "LFRB_APP", "LFRR_W_CTR", "LFRR_CTR"]
+parent_id = "LFRH_APP"
+controlled_by = ["LFRH_TWR"]
 
 [[stations]]
 id = "LFRI_I_TWR"
@@ -420,6 +429,10 @@ controlled_by = [
   "LFRR_S_CTR",
   "LFRR_CTR",
 ]
+
+[[stations]]
+id = "LFRM_I_TWR"
+controlled_by = ["LFRM_I_TWR"]
 
 [[stations]]
 id = "LFRN_TWR"
