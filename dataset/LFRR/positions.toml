@@ -288,7 +288,12 @@ id = "LFRN_RN_APP"
 prefixes = ["LFRN"]
 frequency = "134.000"
 facility_type = "APP"
-default_call_sources = ["LFRN_RN_APP", "LFRN_DD_APP", "LFRN_JC_APP", "LFRN_JD_APP"]
+default_call_sources = [
+  "LFRN_RN_APP",
+  "LFRN_DD_APP",
+  "LFRN_JC_APP",
+  "LFRN_JD_APP",
+]
 
 [[positions]]
 id = "LFRS_IE_APP"
@@ -330,7 +335,14 @@ id = "LFRS_RS_APP"
 prefixes = ["LFRS"]
 frequency = "124.430"
 facility_type = "APP"
-default_call_sources = ["LFRS_RS_APP", "LFRS_LU_APP", "LFRS_NB_APP", "LFRS_NA_APP", "LFRS_IE_APP", "LFRS_IW_APP"]
+default_call_sources = [
+  "LFRS_RS_APP",
+  "LFRS_LU_APP",
+  "LFRS_NB_APP",
+  "LFRS_NA_APP",
+  "LFRS_IE_APP",
+  "LFRS_IW_APP",
+]
 
 [[positions]]
 id = "LFEA_I_TWR"
