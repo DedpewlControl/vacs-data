@@ -470,8 +470,7 @@
             "station_id": "LFPL_TWR"
           },
           {
-            "label": ["Meaux*"],
-            "station_id": "LFPE_TWR"
+            "label": ["Meaux*"]
           },
           {
             "label": ["LB", "APP PON"],

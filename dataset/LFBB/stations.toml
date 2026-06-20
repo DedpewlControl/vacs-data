@@ -5,18 +5,12 @@ controlled_by = ["LFBB_CTR"]
 [[stations]]
 id = "LFBB_H1"
 parent_id = "LFBB_BN"
-controlled_by = [
-    "LFBB_H1_CTR",
-    "LFBB_US_CTR",
-]
+controlled_by = ["LFBB_H1_CTR", "LFBB_US_CTR"]
 
 [[stations]]
 id = "LFBB_L1"
 parent_id = "LFBB_BN"
-controlled_by = [
-    "LFBB_L1_CTR",
-    "LFBB_UN_CTR",
-]
+controlled_by = ["LFBB_L1_CTR", "LFBB_UN_CTR"]
 
 [[stations]]
 id = "LFBB_LM"
@@ -25,34 +19,22 @@ controlled_by = ["LFBB_CTR"]
 [[stations]]
 id = "LFBB_N1"
 parent_id = "LFBB_BN"
-controlled_by = [
-    "LFBB_N1_CTR",
-    "LFBB_US_CTR",
-]
+controlled_by = ["LFBB_N1_CTR", "LFBB_US_CTR"]
 
 [[stations]]
 id = "LFBB_P1"
 parent_id = "LFBB_BN"
-controlled_by = [
-    "LFBB_P1_CTR",
-    "LFBB_UN_CTR",
-]
+controlled_by = ["LFBB_P1_CTR", "LFBB_UN_CTR"]
 
 [[stations]]
 id = "LFBB_R1"
 parent_id = "LFBB_BN"
-controlled_by = [
-    "LFBB_R1_CTR",
-    "LFBB_UN_CTR",
-]
+controlled_by = ["LFBB_R1_CTR", "LFBB_UN_CTR"]
 
 [[stations]]
 id = "LFBB_T1"
 parent_id = "LFBB_BN"
-controlled_by = [
-    "LFBB_T1_CTR",
-    "LFBB_UN_CTR",
-]
+controlled_by = ["LFBB_T1_CTR", "LFBB_UN_CTR"]
 
 [[stations]]
 id = "LFBB_TG"
@@ -65,25 +47,16 @@ controlled_by = ["LFBB_CTR"]
 [[stations]]
 id = "LFBB_X1"
 parent_id = "LFBB_BN"
-controlled_by = [
-    "LFBB_X1_CTR",
-    "LFBB_US_CTR",
-]
+controlled_by = ["LFBB_X1_CTR", "LFBB_US_CTR"]
 
 [[stations]]
 id = "LFBB_Z1"
 parent_id = "LFBB_BN"
-controlled_by = [
-    "LFBB_Z1_CTR",
-    "LFBB_US_CTR",
-]
+controlled_by = ["LFBB_Z1_CTR", "LFBB_US_CTR"]
 
 [[stations]]
 id = "LFBC_APP"
-controlled_by = [
-    "LFBC_APP",
-    "LFFM_CTR",
-]
+controlled_by = ["LFBC_APP", "LFFM_CTR"]
 
 [[stations]]
 id = "LFBD_BW_APP"
@@ -102,10 +75,7 @@ controlled_by = ["LFBD_I_APP"]
 
 [[stations]]
 id = "LFBG_APP"
-controlled_by = [
-    "LFBG_APP",
-    "LFFM_CTR",
-]
+controlled_by = ["LFBG_APP", "LFFM_CTR"]
 
 [[stations]]
 id = "LFBH_APP"
@@ -134,10 +104,7 @@ controlled_by = ["LFBL_I_APP"]
 
 [[stations]]
 id = "LFBM_APP"
-controlled_by = [
-    "LFBM_APP",
-    "LFFM_CTR",
-]
+controlled_by = ["LFBM_APP", "LFFM_CTR"]
 
 [[stations]]
 id = "LFBO_AE_APP"
@@ -157,10 +124,7 @@ controlled_by = ["LFBO_EB_APP"]
 [[stations]]
 id = "LFBO_WB_APP"
 parent_id = "LFBO_AW_APP"
-controlled_by = [
-    "LFBO_WB_APP",
-    "LFBO_EB_APP",
-]
+controlled_by = ["LFBO_WB_APP", "LFBO_EB_APP"]
 
 [[stations]]
 id = "LFBO_I_APP"
@@ -184,10 +148,7 @@ controlled_by = ["LFBP_I_APP"]
 
 [[stations]]
 id = "LFBY_APP"
-controlled_by = [
-    "LFBY_APP",
-    "LFFM_CTR",
-]
+controlled_by = ["LFBY_APP", "LFFM_CTR"]
 
 [[stations]]
 id = "LFBZ_APP"
@@ -197,10 +158,7 @@ controlled_by = ["LFBZ_APP"]
 [[stations]]
 id = "LFBZ_I_APP"
 parent_id = "LFBB_BN"
-controlled_by = [
-    "LFBZ_I_APP",
-    "LFBZ_APP",
-]
+controlled_by = ["LFBZ_I_APP", "LFBZ_APP"]
 
 [[stations]]
 id = "LFBA_TWR"
@@ -301,11 +259,6 @@ controlled_by = ["LFCK_I_TWR"]
 id = "LFCL_TWR"
 parent_id = "LFBO_AE_APP"
 controlled_by = ["LFCL_TWR"]
-
-[[stations]]
-id = "LFCI_I_TWR"
-parent_id = "LFBO_AE_APP"
-controlled_by = ["LFCI_I_TWR"]
 
 [[stations]]
 id = "LFDN_I_TWR"

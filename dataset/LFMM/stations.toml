@@ -1,173 +1,82 @@
 [[stations]]
 id = "LFMM_A1"
-controlled_by = [
-    "LFMM_A_CTR",
-    "LFMM_EU_CTR",
-    "LFMM_RAE_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_A_CTR", "LFMM_EU_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_AJ"
-controlled_by = [
-    "LFMM_E_CTR",
-    "LFMM_RAE_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_E_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_B"
-controlled_by = [
-    "LFMM_EU_CTR",
-    "LFMM_U_CTR",
-    "LFMM_RAE_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_EU_CTR", "LFMM_U_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_BT"
-controlled_by = [
-    "LFMM_E_CTR",
-    "LFMM_RAE_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_E_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_D"
-controlled_by = [
-    "LFMM_WU_CTR",
-    "LFMM_U_CTR",
-    "LFMM_RAW_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_WU_CTR", "LFMM_U_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_E"
-controlled_by = [
-    "LFMM_U_CTR",
-    "LFMM_E_CTR",
-    "LFMM_RAE_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_U_CTR", "LFMM_E_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_F"
-controlled_by = [
-    "LFMM_WU_CTR",
-    "LFMM_U_CTR",
-    "LFMM_RAW_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_WU_CTR", "LFMM_U_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_G"
-controlled_by = [
-    "LFMM_EU_CTR",
-    "LFMM_U_CTR",
-    "LFMM_RAE_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_EU_CTR", "LFMM_U_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_K"
-controlled_by = [
-    "LFMM_U_CTR",
-    "LFMM_E_CTR",
-    "LFMM_RAE_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_U_CTR", "LFMM_E_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_LE"
-controlled_by = [
-    "LFMM_W_CTR",
-    "LFMM_RAW_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_W_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_LO"
-controlled_by = [
-    "LFMM_W_CTR",
-    "LFMM_RAW_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_W_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_LS"
-controlled_by = [
-    "LFMM_W_CTR",
-    "LFMM_RAW_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_W_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_M"
-controlled_by = [
-    "LFMM_WU_CTR",
-    "LFMM_U_CTR",
-    "LFMM_RAW_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_WU_CTR", "LFMM_U_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_ML"
-controlled_by = [
-    "LFMM_W_CTR",
-    "LFMM_RAW_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_W_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_MN"
-controlled_by = [
-    "LFMM_E_CTR",
-    "LFMM_RAE_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_E_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_MO"
-controlled_by = [
-    "LFMM_W_CTR",
-    "LFMM_RAW_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_W_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_ST"
-controlled_by = [
-    "LFMM_E_CTR",
-    "LFMM_RAE_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_E_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_W"
-controlled_by = [
-    "LFMM_W_CTR",
-    "LFMM_WU_CTR",
-    "LFMM_RAW_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_W_CTR", "LFMM_WU_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_Y"
-controlled_by = [
-    "LFMM_EU_CTR",
-    "LFMM_U_CTR",
-    "LFMM_RAE_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_EU_CTR", "LFMM_U_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFMM_Z"
-controlled_by = [
-    "LFMM_WU_CTR",
-    "LFMM_U_CTR",
-    "LFMM_RAW_CTR",
-    "LFMM_CTR",
-]
+controlled_by = ["LFMM_WU_CTR", "LFMM_U_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
 
 [[stations]]
 id = "LFKB_IS_APP"
@@ -201,10 +110,7 @@ controlled_by = ["LFKJ_I_APP"]
 
 [[stations]]
 id = "LFKS_APP"
-controlled_by = [
-    "LFKS_APP",
-    "LFFM_CTR",
-]
+controlled_by = ["LFKS_APP", "LFFM_CTR"]
 
 [[stations]]
 id = "LFLB_APP"
@@ -273,10 +179,7 @@ controlled_by = ["LFLN_APP"]
 
 [[stations]]
 id = "LFMC_APP"
-controlled_by = [
-    "LFMC_APP",
-    "LFFM_CTR",
-]
+controlled_by = ["LFMC_APP", "LFFM_CTR"]
 
 [[stations]]
 id = "LFMI_APP"
@@ -285,10 +188,7 @@ controlled_by = ["LFMI_APP"]
 
 [[stations]]
 id = "LFMI_C_APP"
-controlled_by = [
-    "LFMI_C_APP",
-    "LFFM_CTR",
-]
+controlled_by = ["LFMI_C_APP", "LFFM_CTR"]
 
 [[stations]]
 id = "LFML_MB_APP"
@@ -352,10 +252,7 @@ controlled_by = ["LFMN_ND_DEP"]
 
 [[stations]]
 id = "LFMO_APP"
-controlled_by = [
-    "LFMO_APP",
-    "LFFM_CTR",
-]
+controlled_by = ["LFMO_APP", "LFFM_CTR"]
 
 [[stations]]
 id = "LFMT_I1_APP"
@@ -389,17 +286,11 @@ controlled_by = ["LFMT_FE_APP"]
 
 [[stations]]
 id = "LFMY_APP"
-controlled_by = [
-    "LFMY_APP",
-    "LFFM_CTR",
-]
+controlled_by = ["LFMY_APP", "LFFM_CTR"]
 
 [[stations]]
 id = "LFTH_APP"
-controlled_by = [
-    "LFTH_APP",
-    "LFFM_CTR",
-]
+controlled_by = ["LFTH_APP", "LFFM_CTR"]
 
 [[stations]]
 id = "LFCC_I_TWR"

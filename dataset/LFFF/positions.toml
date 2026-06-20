@@ -18,16 +18,16 @@ prefixes = ["PAR"]
 frequency = "125.455"
 facility_type = "CTR"
 default_call_sources = [
-    "PAR_AP",
-    "PAR_TB",
-    "PAR_TE",
-    "PAR_TN",
-    "LFQQ_QE_APP",
-    "LFQQ_QA_APP",
-    "LFAV_TWR",
-    "LFQQ_TWR",
-    "LFAQ_TWR",
-    "LFQQ_GND",
+  "PAR_AP",
+  "PAR_TB",
+  "PAR_TE",
+  "PAR_TN",
+  "LFQQ_QE_APP",
+  "LFQQ_QA_APP",
+  "LFAV_TWR",
+  "LFQQ_TWR",
+  "LFAQ_TWR",
+  "LFQQ_GND",
 ]
 
 [[positions]]
@@ -35,23 +35,14 @@ id = "PAR_AOML_CTR"
 prefixes = ["PAR"]
 frequency = "129.625"
 facility_type = "CTR"
-default_call_sources = [
-    "PAR_AO",
-    "PAR_AR",
-    "PAR_US",
-    "PAR_TL",
-    "PAR_TM",
-]
+default_call_sources = ["PAR_AO", "PAR_AR", "PAR_US", "PAR_TL", "PAR_TM"]
 
 [[positions]]
 id = "PAR_AOUS_CTR"
 prefixes = ["PAR"]
 frequency = "132.675"
 facility_type = "CTR"
-default_call_sources = [
-    "PAR_AO",
-    "PAR_US",
-]
+default_call_sources = ["PAR_AO", "PAR_US"]
 
 [[positions]]
 id = "PAR_AO_CTR"
@@ -65,10 +56,7 @@ id = "PAR_APTE_CTR"
 prefixes = ["PAR"]
 frequency = "131.055"
 facility_type = "CTR"
-default_call_sources = [
-    "PAR_AP",
-    "PAR_TE",
-]
+default_call_sources = ["PAR_AP", "PAR_TE"]
 
 [[positions]]
 id = "PAR_AP_CTR"
@@ -82,11 +70,7 @@ id = "PAR_ARML_CTR"
 prefixes = ["PAR"]
 frequency = "125.700"
 facility_type = "CTR"
-default_call_sources = [
-    "PAR_AR",
-    "PAR_TL",
-    "PAR_TM",
-]
+default_call_sources = ["PAR_AR", "PAR_TL", "PAR_TM"]
 
 [[positions]]
 id = "PAR_AR_CTR"
@@ -101,101 +85,101 @@ prefixes = ["PAR"]
 frequency = "128.275"
 facility_type = "CTR"
 default_call_sources = [
-    "LFPM_SJ_APP",
-    "PAR_OG",
-    "LFPM_SI_APP",
-    "LFLD_I_TWR",
-    "PAR_AO",
-    "PAR_AP",
-    "PAR_AR",
-    "PAR_OT",
-    "PAR_OY",
-    "PAR_TB",
-    "PAR_TE",
-    "PAR_TN",
-    "PAR_TP",
-    "PAR_TU",
-    "PAR_TW",
-    "PAR_UJ",
-    "PAR_UK",
-    "PAR_US",
-    "PAR_UT",
-    "PAR_UZ",
-    "LFLA_I_TWR",
-    "LFOK_TWR",
-    "LFOZ_I_TWR",
-    "LFPM_TWR",
-    "LFQA_I_TWR",
-    "LFQB_I_TWR",
-    "PAR_DO",
-    "PAR_HP",
-    "PAR_PU",
-    "PAR_PW",
-    "PAR_RT",
-    "PAR_S",
-    "PAR_TH",
-    "PAR_TL",
-    "PAR_TM",
-    "PAR_UP",
-    "LFPG_N_APP",
-    "LFQQ_QE_APP",
-    "LFPM_SK_APP",
-    "PAR_DG",
-    "PAR_DS",
-    "LFOB_APP",
-    "LFPG_N_DEP",
-    "LFPG_FN_APP",
-    "LFPG_S_APP",
-    "LFPT_APP",
-    "LFQQ_QA_APP",
-    "LFQQ_QD_APP",
-    "LFQQ_QR_APP",
-    "LFAV_TWR",
-    "LFOQ_I_TWR",
-    "LFOT_TWR",
-    "LFQQ_TWR",
-    "LFOB_I_APP",
-    "LFQQ_QW_APP",
-    "LFAQ_TWR",
-    "LFOB_TWR",
-    "LFOP_TWR",
-    "LFPG_N_TWR",
-    "LFPT_TWR",
-    "LFQQ_GND",
-    "LFPG_S_DEP",
-    "LFPG_FS_APP",
-    "LFAC_I_TWR",
-    "LFAT_TWR",
-    "LFPG_S_TWR",
-    "LFQT_TWR",
-    "LFPG_N_GND",
-    "LFPO_APP",
-    "LFPB_TWR",
-    "LFPL_TWR",
-    "LFAT_GND",
-    "LFPG_NP_GND",
-    "LFPG_SW_GND",
-    "LFQT_GND",
-    "LFPG_FDX_RMP",
-    "LFPG_DEL",
-    "LFPO_DEP",
-    "LFPO_F_APP",
-    "LFPB_GND",
-    "LFPG_SE_GND",
-    "LFPL_GND",
-    "LFPG_RMP",
-    "LFPN_TWR",
-    "LFPO_TWR",
-    "LFPG_BD_RMP",
-    "LFPG_F_RMP",
-    "LFPG_KL_RMP",
-    "LFPG_J_RMP",
-    "LFPG_ACE_RMP",
-    "LFPB_DEL",
-    "LFPN_I_TWR",
-    "LFPN_GND",
-    "LFPO_GND",
-    "LFPO_DEL",
+  "LFPM_SJ_APP",
+  "PAR_OG",
+  "LFPM_SI_APP",
+  "LFLD_I_TWR",
+  "PAR_AO",
+  "PAR_AP",
+  "PAR_AR",
+  "PAR_OT",
+  "PAR_OY",
+  "PAR_TB",
+  "PAR_TE",
+  "PAR_TN",
+  "PAR_TP",
+  "PAR_TU",
+  "PAR_TW",
+  "PAR_UJ",
+  "PAR_UK",
+  "PAR_US",
+  "PAR_UT",
+  "PAR_UZ",
+  "LFLA_I_TWR",
+  "LFOK_TWR",
+  "LFOZ_I_TWR",
+  "LFPM_TWR",
+  "LFQA_I_TWR",
+  "LFQB_I_TWR",
+  "PAR_DO",
+  "PAR_HP",
+  "PAR_PU",
+  "PAR_PW",
+  "PAR_RT",
+  "PAR_S",
+  "PAR_TH",
+  "PAR_TL",
+  "PAR_TM",
+  "PAR_UP",
+  "LFPG_N_APP",
+  "LFQQ_QE_APP",
+  "LFPM_SK_APP",
+  "PAR_DG",
+  "PAR_DS",
+  "LFOB_APP",
+  "LFPG_N_DEP",
+  "LFPG_FN_APP",
+  "LFPG_S_APP",
+  "LFPT_APP",
+  "LFQQ_QA_APP",
+  "LFQQ_QD_APP",
+  "LFQQ_QR_APP",
+  "LFAV_TWR",
+  "LFOQ_I_TWR",
+  "LFOT_TWR",
+  "LFQQ_TWR",
+  "LFOB_I_APP",
+  "LFQQ_QW_APP",
+  "LFAQ_TWR",
+  "LFOB_TWR",
+  "LFOP_TWR",
+  "LFPG_N_TWR",
+  "LFPT_TWR",
+  "LFQQ_GND",
+  "LFPG_S_DEP",
+  "LFPG_FS_APP",
+  "LFAC_I_TWR",
+  "LFAT_TWR",
+  "LFPG_S_TWR",
+  "LFQT_TWR",
+  "LFPG_N_GND",
+  "LFPO_APP",
+  "LFPB_TWR",
+  "LFPL_TWR",
+  "LFAT_GND",
+  "LFPG_NP_GND",
+  "LFPG_SW_GND",
+  "LFQT_GND",
+  "LFPG_FDX_RMP",
+  "LFPG_DEL",
+  "LFPO_DEP",
+  "LFPO_F_APP",
+  "LFPB_GND",
+  "LFPG_SE_GND",
+  "LFPL_GND",
+  "LFPG_RMP",
+  "LFPN_TWR",
+  "LFPO_TWR",
+  "LFPG_BD_RMP",
+  "LFPG_F_RMP",
+  "LFPG_KL_RMP",
+  "LFPG_J_RMP",
+  "LFPG_ACE_RMP",
+  "LFPB_DEL",
+  "LFPN_I_TWR",
+  "LFPN_GND",
+  "LFPO_GND",
+  "LFPO_DEL",
 ]
 
 [[positions]]
@@ -204,19 +188,19 @@ prefixes = ["PAR"]
 frequency = "126.100"
 facility_type = "CTR"
 default_call_sources = [
-    "PAR_TU",
-    "PAR_TW",
-    "PAR_UJ",
-    "PAR_UT",
-    "PAR_DO",
-    "PAR_HP",
-    "PAR_PU",
-    "PAR_PW",
-    "PAR_RT",
-    "PAR_S",
-    "PAR_UP",
-    "PAR_DG",
-    "PAR_DS",
+  "PAR_TU",
+  "PAR_TW",
+  "PAR_UJ",
+  "PAR_UT",
+  "PAR_DO",
+  "PAR_HP",
+  "PAR_PU",
+  "PAR_PW",
+  "PAR_RT",
+  "PAR_S",
+  "PAR_UP",
+  "PAR_DG",
+  "PAR_DS",
 ]
 
 [[positions]]
@@ -224,10 +208,7 @@ id = "PAR_DG_CTR"
 prefixes = ["PAR"]
 frequency = "124.630"
 facility_type = "CTR"
-default_call_sources = [
-    "PAR_DG",
-    "PAR_DS",
-]
+default_call_sources = ["PAR_DG", "PAR_DS"]
 
 [[positions]]
 id = "PAR_DODG_CTR"
@@ -235,49 +216,49 @@ prefixes = ["PAR"]
 frequency = "127.080"
 facility_type = "CTR"
 default_call_sources = [
-    "PAR_DO",
-    "PAR_S",
-    "PAR_DG",
-    "PAR_DS",
-    "LFPG_N_APP",
-    "LFOB_APP",
-    "LFPG_N_DEP",
-    "LFPG_FN_APP",
-    "LFPG_S_APP",
-    "LFPT_APP",
-    "LFOB_I_APP",
-    "LFOB_TWR",
-    "LFPG_N_TWR",
-    "LFPT_TWR",
-    "LFPG_S_DEP",
-    "LFPG_FS_APP",
-    "LFPG_S_TWR",
-    "LFPG_N_GND",
-    "LFPO_APP",
-    "LFPB_TWR",
-    "LFPL_TWR",
-    "LFPG_NP_GND",
-    "LFPG_SW_GND",
-    "LFPG_FDX_RMP",
-    "LFPG_DEL",
-    "LFPO_DEP",
-    "LFPO_F_APP",
-    "LFPB_GND",
-    "LFPG_SE_GND",
-    "LFPL_GND",
-    "LFPG_RMP",
-    "LFPN_TWR",
-    "LFPO_TWR",
-    "LFPG_BD_RMP",
-    "LFPG_F_RMP",
-    "LFPG_KL_RMP",
-    "LFPG_J_RMP",
-    "LFPG_ACE_RMP",
-    "LFPB_DEL",
-    "LFPN_I_TWR",
-    "LFPN_GND",
-    "LFPO_GND",
-    "LFPO_DEL",
+  "PAR_DO",
+  "PAR_S",
+  "PAR_DG",
+  "PAR_DS",
+  "LFPG_N_APP",
+  "LFOB_APP",
+  "LFPG_N_DEP",
+  "LFPG_FN_APP",
+  "LFPG_S_APP",
+  "LFPT_APP",
+  "LFOB_I_APP",
+  "LFOB_TWR",
+  "LFPG_N_TWR",
+  "LFPT_TWR",
+  "LFPG_S_DEP",
+  "LFPG_FS_APP",
+  "LFPG_S_TWR",
+  "LFPG_N_GND",
+  "LFPO_APP",
+  "LFPB_TWR",
+  "LFPL_TWR",
+  "LFPG_NP_GND",
+  "LFPG_SW_GND",
+  "LFPG_FDX_RMP",
+  "LFPG_DEL",
+  "LFPO_DEP",
+  "LFPO_F_APP",
+  "LFPB_GND",
+  "LFPG_SE_GND",
+  "LFPL_GND",
+  "LFPG_RMP",
+  "LFPN_TWR",
+  "LFPO_TWR",
+  "LFPG_BD_RMP",
+  "LFPG_F_RMP",
+  "LFPG_KL_RMP",
+  "LFPG_J_RMP",
+  "LFPG_ACE_RMP",
+  "LFPB_DEL",
+  "LFPN_I_TWR",
+  "LFPN_GND",
+  "LFPO_GND",
+  "LFPO_DEL",
 ]
 
 [[positions]]
@@ -286,49 +267,49 @@ prefixes = ["PAR"]
 frequency = "135.405"
 facility_type = "CTR"
 default_call_sources = [
-    "PAR_DO",
-    "PAR_S",
-    "PAR_DG",
-    "PAR_DS",
-    "LFPG_N_APP",
-    "LFOB_APP",
-    "LFPG_N_DEP",
-    "LFPG_FN_APP",
-    "LFPG_S_APP",
-    "LFPT_APP",
-    "LFOB_I_APP",
-    "LFOB_TWR",
-    "LFPG_N_TWR",
-    "LFPT_TWR",
-    "LFPG_S_DEP",
-    "LFPG_FS_APP",
-    "LFPG_S_TWR",
-    "LFPG_N_GND",
-    "LFPO_APP",
-    "LFPB_TWR",
-    "LFPL_TWR",
-    "LFPG_NP_GND",
-    "LFPG_SW_GND",
-    "LFPG_FDX_RMP",
-    "LFPG_DEL",
-    "LFPO_DEP",
-    "LFPO_F_APP",
-    "LFPB_GND",
-    "LFPG_SE_GND",
-    "LFPL_GND",
-    "LFPG_RMP",
-    "LFPN_TWR",
-    "LFPO_TWR",
-    "LFPG_BD_RMP",
-    "LFPG_F_RMP",
-    "LFPG_KL_RMP",
-    "LFPG_J_RMP",
-    "LFPG_ACE_RMP",
-    "LFPB_DEL",
-    "LFPN_I_TWR",
-    "LFPN_GND",
-    "LFPO_GND",
-    "LFPO_DEL",
+  "PAR_DO",
+  "PAR_S",
+  "PAR_DG",
+  "PAR_DS",
+  "LFPG_N_APP",
+  "LFOB_APP",
+  "LFPG_N_DEP",
+  "LFPG_FN_APP",
+  "LFPG_S_APP",
+  "LFPT_APP",
+  "LFOB_I_APP",
+  "LFOB_TWR",
+  "LFPG_N_TWR",
+  "LFPT_TWR",
+  "LFPG_S_DEP",
+  "LFPG_FS_APP",
+  "LFPG_S_TWR",
+  "LFPG_N_GND",
+  "LFPO_APP",
+  "LFPB_TWR",
+  "LFPL_TWR",
+  "LFPG_NP_GND",
+  "LFPG_SW_GND",
+  "LFPG_FDX_RMP",
+  "LFPG_DEL",
+  "LFPO_DEP",
+  "LFPO_F_APP",
+  "LFPB_GND",
+  "LFPG_SE_GND",
+  "LFPL_GND",
+  "LFPG_RMP",
+  "LFPN_TWR",
+  "LFPO_TWR",
+  "LFPG_BD_RMP",
+  "LFPG_F_RMP",
+  "LFPG_KL_RMP",
+  "LFPG_J_RMP",
+  "LFPG_ACE_RMP",
+  "LFPB_DEL",
+  "LFPN_I_TWR",
+  "LFPN_GND",
+  "LFPO_GND",
+  "LFPO_DEL",
 ]
 
 [[positions]]
@@ -337,49 +318,49 @@ prefixes = ["PAR"]
 frequency = "125.060"
 facility_type = "CTR"
 default_call_sources = [
-    "PAR_DO",
-    "PAR_S",
-    "PAR_DG",
-    "PAR_DS",
-    "LFPG_N_APP",
-    "LFOB_APP",
-    "LFPG_N_DEP",
-    "LFPG_FN_APP",
-    "LFPG_S_APP",
-    "LFPT_APP",
-    "LFOB_I_APP",
-    "LFOB_TWR",
-    "LFPG_N_TWR",
-    "LFPT_TWR",
-    "LFPG_S_DEP",
-    "LFPG_FS_APP",
-    "LFPG_S_TWR",
-    "LFPG_N_GND",
-    "LFPO_APP",
-    "LFPB_TWR",
-    "LFPL_TWR",
-    "LFPG_NP_GND",
-    "LFPG_SW_GND",
-    "LFPG_FDX_RMP",
-    "LFPG_DEL",
-    "LFPO_DEP",
-    "LFPO_F_APP",
-    "LFPB_GND",
-    "LFPG_SE_GND",
-    "LFPL_GND",
-    "LFPG_RMP",
-    "LFPN_TWR",
-    "LFPO_TWR",
-    "LFPG_BD_RMP",
-    "LFPG_F_RMP",
-    "LFPG_KL_RMP",
-    "LFPG_J_RMP",
-    "LFPG_ACE_RMP",
-    "LFPB_DEL",
-    "LFPN_I_TWR",
-    "LFPN_GND",
-    "LFPO_GND",
-    "LFPO_DEL",
+  "PAR_DO",
+  "PAR_S",
+  "PAR_DG",
+  "PAR_DS",
+  "LFPG_N_APP",
+  "LFOB_APP",
+  "LFPG_N_DEP",
+  "LFPG_FN_APP",
+  "LFPG_S_APP",
+  "LFPT_APP",
+  "LFOB_I_APP",
+  "LFOB_TWR",
+  "LFPG_N_TWR",
+  "LFPT_TWR",
+  "LFPG_S_DEP",
+  "LFPG_FS_APP",
+  "LFPG_S_TWR",
+  "LFPG_N_GND",
+  "LFPO_APP",
+  "LFPB_TWR",
+  "LFPL_TWR",
+  "LFPG_NP_GND",
+  "LFPG_SW_GND",
+  "LFPG_FDX_RMP",
+  "LFPG_DEL",
+  "LFPO_DEP",
+  "LFPO_F_APP",
+  "LFPB_GND",
+  "LFPG_SE_GND",
+  "LFPL_GND",
+  "LFPG_RMP",
+  "LFPN_TWR",
+  "LFPO_TWR",
+  "LFPG_BD_RMP",
+  "LFPG_F_RMP",
+  "LFPG_KL_RMP",
+  "LFPG_J_RMP",
+  "LFPG_ACE_RMP",
+  "LFPB_DEL",
+  "LFPN_I_TWR",
+  "LFPN_GND",
+  "LFPO_GND",
+  "LFPO_DEL",
 ]
 
 [[positions]]
@@ -388,19 +369,19 @@ prefixes = ["PAR"]
 frequency = "132.680"
 facility_type = "CTR"
 default_call_sources = [
-    "PAR_TP",
-    "PAR_UK",
-    "PAR_UZ",
-    "PAR_TH",
-    "LFQQ_QD_APP",
-    "LFQQ_QR_APP",
-    "LFQQ_QW_APP",
-    "LFOP_TWR",
-    "LFAC_I_TWR",
-    "LFAT_TWR",
-    "LFQT_TWR",
-    "LFAT_GND",
-    "LFQT_GND",
+  "PAR_TP",
+  "PAR_UK",
+  "PAR_UZ",
+  "PAR_TH",
+  "LFQQ_QD_APP",
+  "LFQQ_QR_APP",
+  "LFQQ_QW_APP",
+  "LFOP_TWR",
+  "LFAC_I_TWR",
+  "LFAT_TWR",
+  "LFQT_TWR",
+  "LFAT_GND",
+  "LFQT_GND",
 ]
 
 [[positions]]
@@ -416,13 +397,13 @@ prefixes = ["PAR"]
 frequency = "132.730"
 facility_type = "CTR"
 default_call_sources = [
-    "PAR_TU",
-    "PAR_TW",
-    "PAR_UJ",
-    "PAR_HP",
-    "PAR_PU",
-    "PAR_PW",
-    "PAR_UP",
+  "PAR_TU",
+  "PAR_TW",
+  "PAR_UJ",
+  "PAR_HP",
+  "PAR_PU",
+  "PAR_PW",
+  "PAR_UP",
 ]
 
 [[positions]]
@@ -430,13 +411,7 @@ id = "PAR_LMH_CTR"
 prefixes = ["PAR"]
 frequency = "132.740"
 facility_type = "CTR"
-default_call_sources = [
-    "PAR_HP",
-    "PAR_PU",
-    "PAR_PW",
-    "PAR_UP",
-    "PAR_UT",
-]
+default_call_sources = ["PAR_HP", "PAR_PU", "PAR_PW", "PAR_UP", "PAR_UT"]
 
 [[positions]]
 id = "PAR_LOW_CTR"
@@ -444,101 +419,101 @@ prefixes = ["PAR"]
 frequency = "135.410"
 facility_type = "CTR"
 default_call_sources = [
-    "LFPM_SJ_APP",
-    "PAR_OG",
-    "LFPM_SI_APP",
-    "LFLD_I_TWR",
-    "PAR_AO",
-    "PAR_AP",
-    "PAR_AR",
-    "PAR_OT",
-    "PAR_OY",
-    "PAR_TB",
-    "PAR_TE",
-    "PAR_TN",
-    "PAR_TP",
-    "PAR_TU",
-    "PAR_TW",
-    "PAR_UJ",
-    "PAR_UK",
-    "PAR_US",
-    "PAR_UT",
-    "PAR_UZ",
-    "LFLA_I_TWR",
-    "LFOK_TWR",
-    "LFOZ_I_TWR",
-    "LFPM_TWR",
-    "LFQA_I_TWR",
-    "LFQB_I_TWR",
-    "PAR_DO",
-    "PAR_HP",
-    "PAR_PU",
-    "PAR_PW",
-    "PAR_RT",
-    "PAR_S",
-    "PAR_TH",
-    "PAR_TL",
-    "PAR_TM",
-    "PAR_UP",
-    "LFPG_N_APP",
-    "LFQQ_QE_APP",
-    "LFPM_SK_APP",
-    "PAR_DG",
-    "PAR_DS",
-    "LFOB_APP",
-    "LFPG_N_DEP",
-    "LFPG_FN_APP",
-    "LFPG_S_APP",
-    "LFPT_APP",
-    "LFQQ_QA_APP",
-    "LFQQ_QD_APP",
-    "LFQQ_QR_APP",
-    "LFAV_TWR",
-    "LFOQ_I_TWR",
-    "LFOT_TWR",
-    "LFQQ_TWR",
-    "LFOB_I_APP",
-    "LFQQ_QW_APP",
-    "LFAQ_TWR",
-    "LFOB_TWR",
-    "LFOP_TWR",
-    "LFPG_N_TWR",
-    "LFPT_TWR",
-    "LFQQ_GND",
-    "LFPG_S_DEP",
-    "LFPG_FS_APP",
-    "LFAC_I_TWR",
-    "LFAT_TWR",
-    "LFPG_S_TWR",
-    "LFQT_TWR",
-    "LFPG_N_GND",
-    "LFPO_APP",
-    "LFPB_TWR",
-    "LFPL_TWR",
-    "LFAT_GND",
-    "LFPG_NP_GND",
-    "LFPG_SW_GND",
-    "LFQT_GND",
-    "LFPG_FDX_RMP",
-    "LFPG_DEL",
-    "LFPO_DEP",
-    "LFPO_F_APP",
-    "LFPB_GND",
-    "LFPG_SE_GND",
-    "LFPL_GND",
-    "LFPG_RMP",
-    "LFPN_TWR",
-    "LFPO_TWR",
-    "LFPG_BD_RMP",
-    "LFPG_F_RMP",
-    "LFPG_KL_RMP",
-    "LFPG_J_RMP",
-    "LFPG_ACE_RMP",
-    "LFPB_DEL",
-    "LFPN_I_TWR",
-    "LFPN_GND",
-    "LFPO_GND",
-    "LFPO_DEL",
+  "LFPM_SJ_APP",
+  "PAR_OG",
+  "LFPM_SI_APP",
+  "LFLD_I_TWR",
+  "PAR_AO",
+  "PAR_AP",
+  "PAR_AR",
+  "PAR_OT",
+  "PAR_OY",
+  "PAR_TB",
+  "PAR_TE",
+  "PAR_TN",
+  "PAR_TP",
+  "PAR_TU",
+  "PAR_TW",
+  "PAR_UJ",
+  "PAR_UK",
+  "PAR_US",
+  "PAR_UT",
+  "PAR_UZ",
+  "LFLA_I_TWR",
+  "LFOK_TWR",
+  "LFOZ_I_TWR",
+  "LFPM_TWR",
+  "LFQA_I_TWR",
+  "LFQB_I_TWR",
+  "PAR_DO",
+  "PAR_HP",
+  "PAR_PU",
+  "PAR_PW",
+  "PAR_RT",
+  "PAR_S",
+  "PAR_TH",
+  "PAR_TL",
+  "PAR_TM",
+  "PAR_UP",
+  "LFPG_N_APP",
+  "LFQQ_QE_APP",
+  "LFPM_SK_APP",
+  "PAR_DG",
+  "PAR_DS",
+  "LFOB_APP",
+  "LFPG_N_DEP",
+  "LFPG_FN_APP",
+  "LFPG_S_APP",
+  "LFPT_APP",
+  "LFQQ_QA_APP",
+  "LFQQ_QD_APP",
+  "LFQQ_QR_APP",
+  "LFAV_TWR",
+  "LFOQ_I_TWR",
+  "LFOT_TWR",
+  "LFQQ_TWR",
+  "LFOB_I_APP",
+  "LFQQ_QW_APP",
+  "LFAQ_TWR",
+  "LFOB_TWR",
+  "LFOP_TWR",
+  "LFPG_N_TWR",
+  "LFPT_TWR",
+  "LFQQ_GND",
+  "LFPG_S_DEP",
+  "LFPG_FS_APP",
+  "LFAC_I_TWR",
+  "LFAT_TWR",
+  "LFPG_S_TWR",
+  "LFQT_TWR",
+  "LFPG_N_GND",
+  "LFPO_APP",
+  "LFPB_TWR",
+  "LFPL_TWR",
+  "LFAT_GND",
+  "LFPG_NP_GND",
+  "LFPG_SW_GND",
+  "LFQT_GND",
+  "LFPG_FDX_RMP",
+  "LFPG_DEL",
+  "LFPO_DEP",
+  "LFPO_F_APP",
+  "LFPB_GND",
+  "LFPG_SE_GND",
+  "LFPL_GND",
+  "LFPG_RMP",
+  "LFPN_TWR",
+  "LFPO_TWR",
+  "LFPG_BD_RMP",
+  "LFPG_F_RMP",
+  "LFPG_KL_RMP",
+  "LFPG_J_RMP",
+  "LFPG_ACE_RMP",
+  "LFPB_DEL",
+  "LFPN_I_TWR",
+  "LFPN_GND",
+  "LFPO_GND",
+  "LFPO_DEL",
 ]
 
 [[positions]]
@@ -547,26 +522,26 @@ prefixes = ["PAR"]
 frequency = "127.305"
 facility_type = "CTR"
 default_call_sources = [
-    "PAR_OG",
-    "PAR_OT",
-    "PAR_OY",
-    "PAR_RT",
-    "PAR_TP",
-    "PAR_UK",
-    "PAR_UZ",
-    "PAR_TH",
-    "LFPM_SK_APP",
-    "LFQQ_QD_APP",
-    "LFQQ_QR_APP",
-    "LFOQ_I_TWR",
-    "LFOT_TWR",
-    "LFQQ_QW_APP",
-    "LFOP_TWR",
-    "LFAC_I_TWR",
-    "LFAT_TWR",
-    "LFQT_TWR",
-    "LFAT_GND",
-    "LFQT_GND",
+  "PAR_OG",
+  "PAR_OT",
+  "PAR_OY",
+  "PAR_RT",
+  "PAR_TP",
+  "PAR_UK",
+  "PAR_UZ",
+  "PAR_TH",
+  "LFPM_SK_APP",
+  "LFQQ_QD_APP",
+  "LFQQ_QR_APP",
+  "LFOQ_I_TWR",
+  "LFOT_TWR",
+  "LFQQ_QW_APP",
+  "LFOP_TWR",
+  "LFAC_I_TWR",
+  "LFAT_TWR",
+  "LFQT_TWR",
+  "LFAT_GND",
+  "LFQT_GND",
 ]
 
 [[positions]]
@@ -575,13 +550,13 @@ prefixes = ["PAR"]
 frequency = "127.310"
 facility_type = "CTR"
 default_call_sources = [
-    "PAR_OG",
-    "PAR_OT",
-    "PAR_OY",
-    "PAR_RT",
-    "LFPM_SK_APP",
-    "LFOQ_I_TWR",
-    "LFOT_TWR",
+  "PAR_OG",
+  "PAR_OT",
+  "PAR_OY",
+  "PAR_RT",
+  "LFPM_SK_APP",
+  "LFOQ_I_TWR",
+  "LFOT_TWR",
 ]
 
 [[positions]]
@@ -590,11 +565,11 @@ prefixes = ["PAR"]
 frequency = "118.725"
 facility_type = "CTR"
 default_call_sources = [
-    "PAR_OT",
-    "PAR_OY",
-    "LFPM_SK_APP",
-    "LFOQ_I_TWR",
-    "LFOT_TWR",
+  "PAR_OT",
+  "PAR_OY",
+  "LFPM_SK_APP",
+  "LFOQ_I_TWR",
+  "LFOT_TWR",
 ]
 
 [[positions]]
@@ -602,10 +577,7 @@ id = "PAR_PU_CTR"
 prefixes = ["PAR"]
 frequency = "132.755"
 facility_type = "CTR"
-default_call_sources = [
-    "PAR_PU",
-    "PAR_PW",
-]
+default_call_sources = ["PAR_PU", "PAR_PW"]
 
 [[positions]]
 id = "PAR_RPAE_CTR"
@@ -613,71 +585,71 @@ prefixes = ["PAR"]
 frequency = "133.560"
 facility_type = "CTR"
 default_call_sources = [
-    "LFPM_SJ_APP",
-    "LFPM_SI_APP",
-    "LFLD_I_TWR",
-    "PAR_AO",
-    "PAR_AR",
-    "PAR_TU",
-    "PAR_TW",
-    "PAR_UJ",
-    "PAR_US",
-    "PAR_UT",
-    "LFLA_I_TWR",
-    "LFOK_TWR",
-    "LFOZ_I_TWR",
-    "LFPM_TWR",
-    "LFQA_I_TWR",
-    "LFQB_I_TWR",
-    "PAR_DO",
-    "PAR_HP",
-    "PAR_PU",
-    "PAR_PW",
-    "PAR_S",
-    "PAR_TL",
-    "PAR_TM",
-    "PAR_UP",
-    "LFPG_N_APP",
-    "PAR_DG",
-    "PAR_DS",
-    "LFOB_APP",
-    "LFPG_N_DEP",
-    "LFPG_FN_APP",
-    "LFPG_S_APP",
-    "LFPT_APP",
-    "LFOB_I_APP",
-    "LFOB_TWR",
-    "LFPG_N_TWR",
-    "LFPT_TWR",
-    "LFPG_S_DEP",
-    "LFPG_FS_APP",
-    "LFPG_S_TWR",
-    "LFPG_N_GND",
-    "LFPO_APP",
-    "LFPB_TWR",
-    "LFPL_TWR",
-    "LFPG_NP_GND",
-    "LFPG_SW_GND",
-    "LFPG_FDX_RMP",
-    "LFPG_DEL",
-    "LFPO_DEP",
-    "LFPO_F_APP",
-    "LFPB_GND",
-    "LFPG_SE_GND",
-    "LFPL_GND",
-    "LFPG_RMP",
-    "LFPN_TWR",
-    "LFPO_TWR",
-    "LFPG_BD_RMP",
-    "LFPG_F_RMP",
-    "LFPG_KL_RMP",
-    "LFPG_J_RMP",
-    "LFPG_ACE_RMP",
-    "LFPB_DEL",
-    "LFPN_I_TWR",
-    "LFPN_GND",
-    "LFPO_GND",
-    "LFPO_DEL",
+  "LFPM_SJ_APP",
+  "LFPM_SI_APP",
+  "LFLD_I_TWR",
+  "PAR_AO",
+  "PAR_AR",
+  "PAR_TU",
+  "PAR_TW",
+  "PAR_UJ",
+  "PAR_US",
+  "PAR_UT",
+  "LFLA_I_TWR",
+  "LFOK_TWR",
+  "LFOZ_I_TWR",
+  "LFPM_TWR",
+  "LFQA_I_TWR",
+  "LFQB_I_TWR",
+  "PAR_DO",
+  "PAR_HP",
+  "PAR_PU",
+  "PAR_PW",
+  "PAR_S",
+  "PAR_TL",
+  "PAR_TM",
+  "PAR_UP",
+  "LFPG_N_APP",
+  "PAR_DG",
+  "PAR_DS",
+  "LFOB_APP",
+  "LFPG_N_DEP",
+  "LFPG_FN_APP",
+  "LFPG_S_APP",
+  "LFPT_APP",
+  "LFOB_I_APP",
+  "LFOB_TWR",
+  "LFPG_N_TWR",
+  "LFPT_TWR",
+  "LFPG_S_DEP",
+  "LFPG_FS_APP",
+  "LFPG_S_TWR",
+  "LFPG_N_GND",
+  "LFPO_APP",
+  "LFPB_TWR",
+  "LFPL_TWR",
+  "LFPG_NP_GND",
+  "LFPG_SW_GND",
+  "LFPG_FDX_RMP",
+  "LFPG_DEL",
+  "LFPO_DEP",
+  "LFPO_F_APP",
+  "LFPB_GND",
+  "LFPG_SE_GND",
+  "LFPL_GND",
+  "LFPG_RMP",
+  "LFPN_TWR",
+  "LFPO_TWR",
+  "LFPG_BD_RMP",
+  "LFPG_F_RMP",
+  "LFPG_KL_RMP",
+  "LFPG_J_RMP",
+  "LFPG_ACE_RMP",
+  "LFPB_DEL",
+  "LFPN_I_TWR",
+  "LFPN_GND",
+  "LFPO_GND",
+  "LFPO_DEL",
 ]
 
 [[positions]]
@@ -686,36 +658,36 @@ prefixes = ["PAR"]
 frequency = "133.925"
 facility_type = "CTR"
 default_call_sources = [
-    "PAR_OG",
-    "PAR_AP",
-    "PAR_OT",
-    "PAR_OY",
-    "PAR_TB",
-    "PAR_TE",
-    "PAR_TN",
-    "PAR_TP",
-    "PAR_UK",
-    "PAR_UZ",
-    "PAR_RT",
-    "PAR_TH",
-    "LFQQ_QE_APP",
-    "LFPM_SK_APP",
-    "LFQQ_QA_APP",
-    "LFQQ_QD_APP",
-    "LFQQ_QR_APP",
-    "LFAV_TWR",
-    "LFOQ_I_TWR",
-    "LFOT_TWR",
-    "LFQQ_TWR",
-    "LFQQ_QW_APP",
-    "LFAQ_TWR",
-    "LFOP_TWR",
-    "LFQQ_GND",
-    "LFAC_I_TWR",
-    "LFAT_TWR",
-    "LFQT_TWR",
-    "LFAT_GND",
-    "LFQT_GND",
+  "PAR_OG",
+  "PAR_AP",
+  "PAR_OT",
+  "PAR_OY",
+  "PAR_TB",
+  "PAR_TE",
+  "PAR_TN",
+  "PAR_TP",
+  "PAR_UK",
+  "PAR_UZ",
+  "PAR_RT",
+  "PAR_TH",
+  "LFQQ_QE_APP",
+  "LFPM_SK_APP",
+  "LFQQ_QA_APP",
+  "LFQQ_QD_APP",
+  "LFQQ_QR_APP",
+  "LFAV_TWR",
+  "LFOQ_I_TWR",
+  "LFOT_TWR",
+  "LFQQ_TWR",
+  "LFQQ_QW_APP",
+  "LFAQ_TWR",
+  "LFOP_TWR",
+  "LFQQ_GND",
+  "LFAC_I_TWR",
+  "LFAT_TWR",
+  "LFQT_TWR",
+  "LFAT_GND",
+  "LFQT_GND",
 ]
 
 [[positions]]
@@ -731,22 +703,22 @@ prefixes = ["PAR"]
 frequency = "128.275"
 facility_type = "CTR"
 default_call_sources = [
-    "PAR_TB",
-    "LFQQ_QE_APP",
-    "LFQQ_QA_APP",
-    "LFQQ_QD_APP",
-    "LFQQ_QR_APP",
-    "LFAV_TWR",
-    "LFQQ_TWR",
-    "LFQQ_QW_APP",
-    "LFAQ_TWR",
-    "LFOP_TWR",
-    "LFQQ_GND",
-    "LFAC_I_TWR",
-    "LFAT_TWR",
-    "LFQT_TWR",
-    "LFAT_GND",
-    "LFQT_GND",
+  "PAR_TB",
+  "LFQQ_QE_APP",
+  "LFQQ_QA_APP",
+  "LFQQ_QD_APP",
+  "LFQQ_QR_APP",
+  "LFAV_TWR",
+  "LFQQ_TWR",
+  "LFQQ_QW_APP",
+  "LFAQ_TWR",
+  "LFOP_TWR",
+  "LFQQ_GND",
+  "LFAC_I_TWR",
+  "LFAT_TWR",
+  "LFQT_TWR",
+  "LFAT_GND",
+  "LFQT_GND",
 ]
 
 [[positions]]
@@ -782,10 +754,7 @@ id = "PAR_TML_CTR"
 prefixes = ["PAR"]
 frequency = "133.920"
 facility_type = "CTR"
-default_call_sources = [
-    "PAR_TL",
-    "PAR_TM",
-]
+default_call_sources = ["PAR_TL", "PAR_TM"]
 
 [[positions]]
 id = "PAR_TM_CTR"
@@ -800,14 +769,14 @@ prefixes = ["PAR"]
 frequency = "135.660"
 facility_type = "CTR"
 default_call_sources = [
-    "PAR_TB",
-    "PAR_TN",
-    "LFQQ_QE_APP",
-    "LFQQ_QA_APP",
-    "LFAV_TWR",
-    "LFQQ_TWR",
-    "LFAQ_TWR",
-    "LFQQ_GND",
+  "PAR_TB",
+  "PAR_TN",
+  "LFQQ_QE_APP",
+  "LFQQ_QA_APP",
+  "LFAV_TWR",
+  "LFQQ_TWR",
+  "LFAQ_TWR",
+  "LFQQ_GND",
 ]
 
 [[positions]]
@@ -829,11 +798,7 @@ id = "PAR_UJ_CTR"
 prefixes = ["PAR"]
 frequency = "132.380"
 facility_type = "CTR"
-default_call_sources = [
-    "PAR_TU",
-    "PAR_TW",
-    "PAR_UJ",
-]
+default_call_sources = ["PAR_TU", "PAR_TW", "PAR_UJ"]
 
 [[positions]]
 id = "PAR_UK_CTR"
@@ -876,37 +841,37 @@ prefixes = ["LFPG"]
 frequency = "124.355"
 facility_type = "DEP"
 default_call_sources = [
-    "LFPG_N_DEP",
-    "LFPG_S_DEP",
-    "LFPG_N_TWR",
-    "LFPT_TWR",
-    "LFPO_APP",
-    "LFPB_TWR",
-    "LFPG_S_TWR",
-    "LFPL_TWR",
-    "LFPG_N_GND",
-    "LFPO_DEP",
-    "LFPO_F_APP",
-    "LFPB_GND",
-    "LFPG_NP_GND",
-    "LFPG_SW_GND",
-    "LFPL_GND",
-    "LFPG_FDX_RMP",
-    "LFPG_DEL",
-    "LFPN_TWR",
-    "LFPO_TWR",
-    "LFPG_SE_GND",
-    "LFPG_RMP",
-    "LFPB_DEL",
-    "LFPN_I_TWR",
-    "LFPN_GND",
-    "LFPO_GND",
-    "LFPG_BD_RMP",
-    "LFPG_F_RMP",
-    "LFPG_KL_RMP",
-    "LFPG_J_RMP",
-    "LFPG_ACE_RMP",
-    "LFPO_DEL",
+  "LFPG_N_DEP",
+  "LFPG_S_DEP",
+  "LFPG_N_TWR",
+  "LFPT_TWR",
+  "LFPO_APP",
+  "LFPB_TWR",
+  "LFPG_S_TWR",
+  "LFPL_TWR",
+  "LFPG_N_GND",
+  "LFPO_DEP",
+  "LFPO_F_APP",
+  "LFPB_GND",
+  "LFPG_NP_GND",
+  "LFPG_SW_GND",
+  "LFPL_GND",
+  "LFPG_FDX_RMP",
+  "LFPG_DEL",
+  "LFPN_TWR",
+  "LFPO_TWR",
+  "LFPG_SE_GND",
+  "LFPG_RMP",
+  "LFPB_DEL",
+  "LFPN_I_TWR",
+  "LFPN_GND",
+  "LFPO_GND",
+  "LFPG_BD_RMP",
+  "LFPG_F_RMP",
+  "LFPG_KL_RMP",
+  "LFPG_J_RMP",
+  "LFPG_ACE_RMP",
+  "LFPO_DEL",
 ]
 
 [[positions]]
@@ -915,21 +880,21 @@ prefixes = ["LFPG"]
 frequency = "133.380"
 facility_type = "DEP"
 default_call_sources = [
-    "LFPG_S_DEP",
-    "LFPO_APP",
-    "LFPB_TWR",
-    "LFPL_TWR",
-    "LFPO_DEP",
-    "LFPO_F_APP",
-    "LFPB_GND",
-    "LFPL_GND",
-    "LFPN_TWR",
-    "LFPO_TWR",
-    "LFPB_DEL",
-    "LFPN_I_TWR",
-    "LFPN_GND",
-    "LFPO_GND",
-    "LFPO_DEL",
+  "LFPG_S_DEP",
+  "LFPO_APP",
+  "LFPB_TWR",
+  "LFPL_TWR",
+  "LFPO_DEP",
+  "LFPO_F_APP",
+  "LFPB_GND",
+  "LFPL_GND",
+  "LFPN_TWR",
+  "LFPO_TWR",
+  "LFPB_DEL",
+  "LFPN_I_TWR",
+  "LFPN_GND",
+  "LFPO_GND",
+  "LFPO_DEL",
 ]
 
 [[positions]]
@@ -938,25 +903,35 @@ prefixes = ["LFPO"]
 frequency = "127.750"
 facility_type = "DEP"
 default_call_sources = [
-    "LFPO_DEP",
-    "LFPN_TWR",
-    "LFPO_TWR",
-    "LFPN_I_TWR",
-    "LFPN_GND",
-    "LFPO_GND",
-    "LFPO_DEL",
+  "LFPO_DEP",
+  "LFPN_TWR",
+  "LFPO_TWR",
+  "LFPN_I_TWR",
+  "LFPN_GND",
+  "LFPO_GND",
+  "LFPO_DEL",
 ]
+
+[[positions]]
+id = "LFOA_APP"
+prefixes = ["LFOA"]
+frequency = "119.700"
+facility_type = "APP"
+default_call_sources = ["LFOA_APP"]
+
+[[positions]]
+id = "LFOA_TWR"
+prefixes = ["LFOA"]
+frequency = "122.100"
+facility_type = "TWR"
+default_call_sources = ["LFOA_TWR"]
 
 [[positions]]
 id = "LFOB_APP"
 prefixes = ["LFOB"]
 frequency = "123.985"
 facility_type = "APP"
-default_call_sources = [
-    "LFOB_APP",
-    "LFOB_I_APP",
-    "LFOB_TWR",
-]
+default_call_sources = ["LFOB_APP", "LFOB_I_APP", "LFOB_TWR"]
 
 [[positions]]
 id = "LFOB_I_APP"
@@ -966,14 +941,46 @@ facility_type = "APP"
 default_call_sources = ["LFOB_I_APP"]
 
 [[positions]]
+id = "LFOE_APP"
+prefixes = ["LFOE"]
+frequency = "118.125"
+facility_type = "APP"
+default_call_sources = ["LFOE_APP"]
+
+[[positions]]
+id = "LFOE_TWR"
+prefixes = ["LFOE"]
+frequency = "122.100"
+facility_type = "TWR"
+default_call_sources = ["LFOE_TWR"]
+
+[[positions]]
+id = "LFOJ_APP"
+prefixes = ["LFOJ"]
+frequency = "122.700"
+facility_type = "APP"
+default_call_sources = ["LFOJ_APP"]
+
+[[positions]]
+id = "LFOJ_TWR"
+prefixes = ["LFOJ"]
+frequency = "124.800"
+facility_type = "TWR"
+default_call_sources = ["LFOJ_TWR"]
+
+[[positions]]
+id = "LFOQ_I_TWR"
+prefixes = ["LFOQ"]
+frequency = "118.455"
+facility_type = "TWR"
+default_call_sources = ["LFOQ_I_TWR"]
+
+[[positions]]
 id = "LFPG_FN_APP"
 prefixes = ["LFPG"]
 frequency = "126.430"
 facility_type = "APP"
-default_call_sources = [
-    "LFPG_FN_APP",
-    "LFPG_FS_APP",
-]
+default_call_sources = ["LFPG_FN_APP", "LFPG_FS_APP"]
 
 [[positions]]
 id = "LFPG_FS_APP"
@@ -988,45 +995,45 @@ prefixes = ["LFPG"]
 frequency = "121.155"
 facility_type = "APP"
 default_call_sources = [
-    "LFPG_N_APP",
-    "LFOB_APP",
-    "LFPG_N_DEP",
-    "LFPG_FN_APP",
-    "LFPG_S_APP",
-    "LFPT_APP",
-    "LFOB_I_APP",
-    "LFOB_TWR",
-    "LFPG_N_TWR",
-    "LFPT_TWR",
-    "LFPG_S_DEP",
-    "LFPG_FS_APP",
-    "LFPG_S_TWR",
-    "LFPG_N_GND",
-    "LFPO_APP",
-    "LFPB_TWR",
-    "LFPL_TWR",
-    "LFPG_NP_GND",
-    "LFPG_SW_GND",
-    "LFPG_FDX_RMP",
-    "LFPG_DEL",
-    "LFPO_DEP",
-    "LFPO_F_APP",
-    "LFPB_GND",
-    "LFPG_SE_GND",
-    "LFPL_GND",
-    "LFPG_RMP",
-    "LFPN_TWR",
-    "LFPO_TWR",
-    "LFPG_BD_RMP",
-    "LFPG_F_RMP",
-    "LFPG_KL_RMP",
-    "LFPG_J_RMP",
-    "LFPG_ACE_RMP",
-    "LFPB_DEL",
-    "LFPN_I_TWR",
-    "LFPN_GND",
-    "LFPO_GND",
-    "LFPO_DEL",
+  "LFPG_N_APP",
+  "LFOB_APP",
+  "LFPG_N_DEP",
+  "LFPG_FN_APP",
+  "LFPG_S_APP",
+  "LFPT_APP",
+  "LFOB_I_APP",
+  "LFOB_TWR",
+  "LFPG_N_TWR",
+  "LFPT_TWR",
+  "LFPG_S_DEP",
+  "LFPG_FS_APP",
+  "LFPG_S_TWR",
+  "LFPG_N_GND",
+  "LFPO_APP",
+  "LFPB_TWR",
+  "LFPL_TWR",
+  "LFPG_NP_GND",
+  "LFPG_SW_GND",
+  "LFPG_FDX_RMP",
+  "LFPG_DEL",
+  "LFPO_DEP",
+  "LFPO_F_APP",
+  "LFPB_GND",
+  "LFPG_SE_GND",
+  "LFPL_GND",
+  "LFPG_RMP",
+  "LFPN_TWR",
+  "LFPO_TWR",
+  "LFPG_BD_RMP",
+  "LFPG_F_RMP",
+  "LFPG_KL_RMP",
+  "LFPG_J_RMP",
+  "LFPG_ACE_RMP",
+  "LFPB_DEL",
+  "LFPN_I_TWR",
+  "LFPN_GND",
+  "LFPO_GND",
+  "LFPO_DEL",
 ]
 
 [[positions]]
@@ -1035,24 +1042,38 @@ prefixes = ["LFPG"]
 frequency = "125.830"
 facility_type = "APP"
 default_call_sources = [
-    "LFPG_S_APP",
-    "LFPG_S_DEP",
-    "LFPG_FS_APP",
-    "LFPO_APP",
-    "LFPB_TWR",
-    "LFPL_TWR",
-    "LFPO_DEP",
-    "LFPO_F_APP",
-    "LFPB_GND",
-    "LFPL_GND",
-    "LFPN_TWR",
-    "LFPO_TWR",
-    "LFPB_DEL",
-    "LFPN_I_TWR",
-    "LFPN_GND",
-    "LFPO_GND",
-    "LFPO_DEL",
+  "LFPG_S_APP",
+  "LFPG_S_DEP",
+  "LFPG_FS_APP",
+  "LFPO_APP",
+  "LFPB_TWR",
+  "LFPL_TWR",
+  "LFPO_DEP",
+  "LFPO_F_APP",
+  "LFPB_GND",
+  "LFPL_GND",
+  "LFPN_TWR",
+  "LFPO_TWR",
+  "LFPB_DEL",
+  "LFPN_I_TWR",
+  "LFPN_GND",
+  "LFPO_GND",
+  "LFPO_DEL",
 ]
+
+[[positions]]
+id = "LFPL_TWR"
+prefixes = ["LFPL"]
+frequency = "118.605"
+facility_type = "TWR"
+default_call_sources = ["LFPL_TWR"]
+
+[[positions]]
+id = "LFPL_GND"
+prefixes = ["LFPL"]
+frequency = "122.130"
+facility_type = "GND"
+default_call_sources = ["LFPL_GND"]
 
 [[positions]]
 id = "LFPM_ISJ_APP"
@@ -1081,13 +1102,13 @@ prefixes = ["LFPM"]
 frequency = "118.890"
 facility_type = "APP"
 default_call_sources = [
-    "LFPM_SI_APP",
-    "LFLA_I_TWR",
-    "LFOK_TWR",
-    "LFOZ_I_TWR",
-    "LFPM_TWR",
-    "LFQA_I_TWR",
-    "LFQB_I_TWR",
+  "LFPM_SI_APP",
+  "LFLA_I_TWR",
+  "LFOK_TWR",
+  "LFOZ_I_TWR",
+  "LFPM_TWR",
+  "LFQA_I_TWR",
+  "LFQB_I_TWR",
 ]
 
 [[positions]]
@@ -1096,15 +1117,15 @@ prefixes = ["LFPM"]
 frequency = "118.050"
 facility_type = "APP"
 default_call_sources = [
-    "LFPM_SJ_APP",
-    "LFPM_SI_APP",
-    "LFLD_I_TWR",
-    "LFLA_I_TWR",
-    "LFOK_TWR",
-    "LFOZ_I_TWR",
-    "LFPM_TWR",
-    "LFQA_I_TWR",
-    "LFQB_I_TWR",
+  "LFPM_SJ_APP",
+  "LFPM_SI_APP",
+  "LFLD_I_TWR",
+  "LFLA_I_TWR",
+  "LFOK_TWR",
+  "LFOZ_I_TWR",
+  "LFPM_TWR",
+  "LFQA_I_TWR",
+  "LFQB_I_TWR",
 ]
 
 [[positions]]
@@ -1112,11 +1133,7 @@ id = "LFPM_SK_APP"
 prefixes = ["LFPM"]
 frequency = "134.875"
 facility_type = "APP"
-default_call_sources = [
-    "LFPM_SK_APP",
-    "LFOQ_I_TWR",
-    "LFOT_TWR",
-]
+default_call_sources = ["LFPM_SK_APP", "LFOQ_I_TWR", "LFOT_TWR"]
 
 [[positions]]
 id = "LFPO_APP"
@@ -1124,15 +1141,15 @@ prefixes = ["LFPO"]
 frequency = "123.875"
 facility_type = "APP"
 default_call_sources = [
-    "LFPO_APP",
-    "LFPO_DEP",
-    "LFPO_F_APP",
-    "LFPN_TWR",
-    "LFPO_TWR",
-    "LFPN_I_TWR",
-    "LFPN_GND",
-    "LFPO_GND",
-    "LFPO_DEL",
+  "LFPO_APP",
+  "LFPO_DEP",
+  "LFPO_F_APP",
+  "LFPN_TWR",
+  "LFPO_TWR",
+  "LFPN_I_TWR",
+  "LFPN_GND",
+  "LFPO_GND",
+  "LFPO_DEL",
 ]
 
 [[positions]]
@@ -1154,17 +1171,56 @@ id = "LFPT_I_APP"
 prefixes = ["LFPT"]
 frequency = "123.835"
 facility_type = "APP"
-default_call_sources = []
+default_call_sources = ["LFPT_I_APP"]
+
+[[positions]]
+id = "LFPX_TWR"
+prefixes = ["LFPX"]
+frequency = "129.525"
+facility_type = "TWR"
+default_call_sources = ["LFPX_TWR"]
+
+[[positions]]
+id = "LFPX_GND"
+prefixes = ["LFPX"]
+frequency = "121.900"
+facility_type = "GND"
+default_call_sources = ["LFPX_GND"]
+
+[[positions]]
+id = "LFPZ_TWR"
+prefixes = ["LFPZ"]
+frequency = "118.000"
+facility_type = "TWR"
+default_call_sources = ["LFPZ_TWR"]
+
+[[positions]]
+id = "LFPZ_GND"
+prefixes = ["LFPZ"]
+frequency = "121.950"
+facility_type = "GND"
+default_call_sources = ["LFPZ_GND"]
+
+[[positions]]
+id = "LFQA_I_TWR"
+prefixes = ["LFQA"]
+frequency = "134.930"
+facility_type = "TWR"
+default_call_sources = ["LFQA_I_TWR"]
+
+[[positions]]
+id = "LFQB_I_TWR"
+prefixes = ["LFQB"]
+frequency = "123.730"
+facility_type = "TWR"
+default_call_sources = ["LFQB_I_TWR"]
 
 [[positions]]
 id = "LFQQ_QA_APP"
 prefixes = ["LFQQ"]
 frequency = "129.360"
 facility_type = "APP"
-default_call_sources = [
-    "LFQQ_QA_APP",
-    "LFAQ_TWR",
-]
+default_call_sources = ["LFQQ_QA_APP", "LFAQ_TWR"]
 
 [[positions]]
 id = "LFQQ_QD_APP"
@@ -1179,21 +1235,21 @@ prefixes = ["LFQQ"]
 frequency = "126.480"
 facility_type = "APP"
 default_call_sources = [
-    "LFQQ_QE_APP",
-    "LFQQ_QA_APP",
-    "LFQQ_QD_APP",
-    "LFQQ_QR_APP",
-    "LFAV_TWR",
-    "LFQQ_TWR",
-    "LFQQ_QW_APP",
-    "LFAQ_TWR",
-    "LFOP_TWR",
-    "LFQQ_GND",
-    "LFAC_I_TWR",
-    "LFAT_TWR",
-    "LFQT_TWR",
-    "LFAT_GND",
-    "LFQT_GND",
+  "LFQQ_QE_APP",
+  "LFQQ_QA_APP",
+  "LFQQ_QD_APP",
+  "LFQQ_QR_APP",
+  "LFAV_TWR",
+  "LFQQ_TWR",
+  "LFQQ_QW_APP",
+  "LFAQ_TWR",
+  "LFOP_TWR",
+  "LFQQ_GND",
+  "LFAC_I_TWR",
+  "LFAT_TWR",
+  "LFQT_TWR",
+  "LFAT_GND",
+  "LFQT_GND",
 ]
 
 [[positions]]
@@ -1202,14 +1258,14 @@ prefixes = ["LFQQ"]
 frequency = "134.825"
 facility_type = "APP"
 default_call_sources = [
-    "LFQQ_QR_APP",
-    "LFQQ_QW_APP",
-    "LFOP_TWR",
-    "LFAC_I_TWR",
-    "LFAT_TWR",
-    "LFQT_TWR",
-    "LFAT_GND",
-    "LFQT_GND",
+  "LFQQ_QR_APP",
+  "LFQQ_QW_APP",
+  "LFOP_TWR",
+  "LFAC_I_TWR",
+  "LFAT_TWR",
+  "LFQT_TWR",
+  "LFAT_GND",
+  "LFQT_GND",
 ]
 
 [[positions]]
@@ -1218,12 +1274,12 @@ prefixes = ["LFQQ"]
 frequency = "120.275"
 facility_type = "APP"
 default_call_sources = [
-    "LFQQ_QW_APP",
-    "LFAC_I_TWR",
-    "LFAT_TWR",
-    "LFQT_TWR",
-    "LFAT_GND",
-    "LFQT_GND",
+  "LFQQ_QW_APP",
+  "LFAC_I_TWR",
+  "LFAT_TWR",
+  "LFQT_TWR",
+  "LFAT_GND",
+  "LFQT_GND",
 ]
 
 [[positions]]
@@ -1245,10 +1301,7 @@ id = "LFAT_TWR"
 prefixes = ["LFAT"]
 frequency = "118.450"
 facility_type = "TWR"
-default_call_sources = [
-    "LFAT_TWR",
-    "LFAT_GND",
-]
+default_call_sources = ["LFAT_TWR", "LFAT_GND"]
 
 [[positions]]
 id = "LFAV_I_TWR"
@@ -1304,11 +1357,7 @@ id = "LFPB_TWR"
 prefixes = ["LFPB"]
 frequency = "118.930"
 facility_type = "TWR"
-default_call_sources = [
-    "LFPB_TWR",
-    "LFPB_GND",
-    "LFPB_DEL",
-]
+default_call_sources = ["LFPB_TWR", "LFPB_GND", "LFPB_DEL"]
 
 [[positions]]
 id = "LFPG_N_TWR"
@@ -1316,20 +1365,20 @@ prefixes = ["LFPG"]
 frequency = "119.255"
 facility_type = "TWR"
 default_call_sources = [
-    "LFPG_N_TWR",
-    "LFPG_S_TWR",
-    "LFPG_N_GND",
-    "LFPG_NP_GND",
-    "LFPG_SW_GND",
-    "LFPG_FDX_RMP",
-    "LFPG_DEL",
-    "LFPG_SE_GND",
-    "LFPG_RMP",
-    "LFPG_BD_RMP",
-    "LFPG_F_RMP",
-    "LFPG_KL_RMP",
-    "LFPG_J_RMP",
-    "LFPG_ACE_RMP",
+  "LFPG_N_TWR",
+  "LFPG_S_TWR",
+  "LFPG_N_GND",
+  "LFPG_NP_GND",
+  "LFPG_SW_GND",
+  "LFPG_FDX_RMP",
+  "LFPG_DEL",
+  "LFPG_SE_GND",
+  "LFPG_RMP",
+  "LFPG_BD_RMP",
+  "LFPG_F_RMP",
+  "LFPG_KL_RMP",
+  "LFPG_J_RMP",
+  "LFPG_ACE_RMP",
 ]
 
 [[positions]]
@@ -1358,22 +1407,14 @@ id = "LFPN_TWR"
 prefixes = ["LFPN"]
 frequency = "120.755"
 facility_type = "TWR"
-default_call_sources = [
-    "LFPN_TWR",
-    "LFPN_I_TWR",
-    "LFPN_GND",
-]
+default_call_sources = ["LFPN_TWR", "LFPN_I_TWR", "LFPN_GND"]
 
 [[positions]]
 id = "LFPO_TWR"
 prefixes = ["LFPO"]
 frequency = "118.700"
 facility_type = "TWR"
-default_call_sources = [
-    "LFPO_TWR",
-    "LFPO_GND",
-    "LFPO_DEL",
-]
+default_call_sources = ["LFPO_TWR", "LFPO_GND", "LFPO_DEL"]
 
 [[positions]]
 id = "LFPT_TWR"
@@ -1387,20 +1428,14 @@ id = "LFQQ_TWR"
 prefixes = ["LFQQ"]
 frequency = "118.555"
 facility_type = "TWR"
-default_call_sources = [
-    "LFQQ_TWR",
-    "LFQQ_GND",
-]
+default_call_sources = ["LFQQ_TWR", "LFQQ_GND"]
 
 [[positions]]
 id = "LFQT_TWR"
 prefixes = ["LFQT"]
 frequency = "119.075"
 facility_type = "TWR"
-default_call_sources = [
-    "LFQT_TWR",
-    "LFQT_GND",
-]
+default_call_sources = ["LFQT_TWR", "LFQT_GND"]
 
 [[positions]]
 id = "LFAT_GND"
@@ -1414,10 +1449,7 @@ id = "LFPB_GND"
 prefixes = ["LFPB"]
 frequency = "121.905"
 facility_type = "GND"
-default_call_sources = [
-    "LFPB_GND",
-    "LFPB_DEL",
-]
+default_call_sources = ["LFPB_GND", "LFPB_DEL"]
 
 [[positions]]
 id = "LFPG_NP_GND"
@@ -1432,18 +1464,18 @@ prefixes = ["LFPG"]
 frequency = "121.610"
 facility_type = "GND"
 default_call_sources = [
-    "LFPG_N_GND",
-    "LFPG_NP_GND",
-    "LFPG_SW_GND",
-    "LFPG_FDX_RMP",
-    "LFPG_DEL",
-    "LFPG_SE_GND",
-    "LFPG_RMP",
-    "LFPG_BD_RMP",
-    "LFPG_F_RMP",
-    "LFPG_KL_RMP",
-    "LFPG_J_RMP",
-    "LFPG_ACE_RMP",
+  "LFPG_N_GND",
+  "LFPG_NP_GND",
+  "LFPG_SW_GND",
+  "LFPG_FDX_RMP",
+  "LFPG_DEL",
+  "LFPG_SE_GND",
+  "LFPG_RMP",
+  "LFPG_BD_RMP",
+  "LFPG_F_RMP",
+  "LFPG_KL_RMP",
+  "LFPG_J_RMP",
+  "LFPG_ACE_RMP",
 ]
 
 [[positions]]
@@ -1459,14 +1491,14 @@ prefixes = ["LFPG"]
 frequency = "121.810"
 facility_type = "GND"
 default_call_sources = [
-    "LFPG_SW_GND",
-    "LFPG_SE_GND",
-    "LFPG_RMP",
-    "LFPG_BD_RMP",
-    "LFPG_F_RMP",
-    "LFPG_KL_RMP",
-    "LFPG_J_RMP",
-    "LFPG_ACE_RMP",
+  "LFPG_SW_GND",
+  "LFPG_SE_GND",
+  "LFPG_RMP",
+  "LFPG_BD_RMP",
+  "LFPG_F_RMP",
+  "LFPG_KL_RMP",
+  "LFPG_J_RMP",
+  "LFPG_ACE_RMP",
 ]
 
 [[positions]]
@@ -1481,10 +1513,7 @@ id = "LFPO_GND"
 prefixes = ["LFPO"]
 frequency = "121.705"
 facility_type = "GND"
-default_call_sources = [
-    "LFPO_GND",
-    "LFPO_DEL",
-]
+default_call_sources = ["LFPO_GND", "LFPO_DEL"]
 
 [[positions]]
 id = "LFQQ_GND"
@@ -1569,10 +1598,31 @@ prefixes = ["LFPG"]
 frequency = "121.940"
 facility_type = "RMP"
 default_call_sources = [
-    "LFPG_RMP",
-    "LFPG_BD_RMP",
-    "LFPG_F_RMP",
-    "LFPG_KL_RMP",
-    "LFPG_J_RMP",
-    "LFPG_ACE_RMP",
+  "LFPG_RMP",
+  "LFPG_BD_RMP",
+  "LFPG_F_RMP",
+  "LFPG_KL_RMP",
+  "LFPG_J_RMP",
+  "LFPG_ACE_RMP",
 ]
+
+[[positions]]
+id = "LFPV_APP"
+prefixes = ["LFPV"]
+frequency = "119.425"
+facility_type = "APP"
+default_call_sources = ["LFPV_APP"]
+
+[[positions]]
+id = "LFPV_TWR"
+prefixes = ["LFPV"]
+frequency = "128.950"
+facility_type = "TWR"
+default_call_sources = ["LFPV_TWR"]
+
+[[positions]]
+id = "LFPV_GND"
+prefixes = ["LFPV"]
+frequency = "121.750"
+facility_type = "GND"
+default_call_sources = ["LFPV_GND"]
