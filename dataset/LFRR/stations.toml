@@ -418,7 +418,13 @@ controlled_by = ["LFRL_TWR", "LFRL_APP", "LFFM_CTR"]
 
 [[stations]]
 id = "LFRM_I_TWR"
-controlled_by = ["LFRM_I_TWR", "LFRS_NB_APP", "LFRS_RS_APP", "LFRR_S_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRM_I_TWR",
+  "LFRS_NB_APP",
+  "LFRS_RS_APP",
+  "LFRR_S_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRN_TWR"
